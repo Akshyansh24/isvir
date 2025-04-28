@@ -4,3 +4,12 @@
   background-color: red;
   height: 6px;
 }
+
+header .topBarSocial a {
+  color: red;
+  font-weight: 500;
+}
+
+header .contantDetail {
+  font-weight: 500;
+}
