@@ -70,9 +70,9 @@ const SliderCard = () => {
                 </a>
 
 
-                <h4 className="card-title mt-2">
+                <h5 className="card-title mt-2 fw-bold">
                   {card.title} <span style={{ float: "right" }}>&#8599;</span>
-                </h4>
+                </h5>
 
 
                 <p className="card-text" style={{ color: "grey", textAlign: "justify" }}>{card.text}</p>

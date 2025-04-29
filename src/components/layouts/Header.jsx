@@ -50,7 +50,6 @@ function Header() {
                                     <Nav.Link href="#contact" className="px-3 text-black">Contact Us</Nav.Link>
                                 </Nav>
 
-
                                 <ul className="navbar-nav flex-row align-items-center list-unstyled ms-3">
                                     <li className="nav-item me-2">
                                         <button className="btn btn-danger">Login</button>
