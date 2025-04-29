@@ -5,8 +5,8 @@ import SliderCard from './SliderCard'
 function Home() {
   return (
     <>
-    <Banner/>
-    <SliderCard/>
+      <Banner />
+      <SliderCard />
     </>
 
   )
