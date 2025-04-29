@@ -28,13 +28,6 @@ function Header() {
             </Container>
             <Container>
                 <Row>
-
-
-
-
-
-
-
                     <Navbar bg="light" expand="lg" className="py-3" style={{ borderRadius: "50px" }}>
                         <Container>
                             <Navbar.Brand href="#home" className="fw-bold">
@@ -59,25 +52,6 @@ function Header() {
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </Row>
             </Container>
         </header>
