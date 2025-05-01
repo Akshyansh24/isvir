@@ -9,15 +9,15 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-       <Route path='/' element= {<HomeLayout/>}>
-          <Route path='/' element={<Home/>} />
-       </Route>
+        <Route path='/' element={<HomeLayout />}>
+          <Route path='/' element={<Home />} />
+        </Route>
       </>
     )
   )
 
   return (
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   )
 }
 

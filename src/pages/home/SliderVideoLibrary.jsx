@@ -5,8 +5,7 @@ import videoSlider from "../../assets/images/videoSlider.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-import 'swiper/css';
-import 'swiper/css/pagination';
+
 
 function SliderVideoLibrary() {
     return (
@@ -22,7 +21,7 @@ function SliderVideoLibrary() {
                         <Col md={7}>
                             <div>
                                 <Swiper
-                                    slidesPerView={3}
+                                    slidesPerView={2}
                                     spaceBetween={30}
                                     grabCursor={true}
                                     loop={true} // loop on

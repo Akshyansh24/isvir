@@ -34,8 +34,7 @@ const SliderCard = () => {
   ];
 
   return (
-
-
+    <div className="blog-section-home">
     <div className="container my-5">
       <div className="row">
         {cardsData.map((card) => (
@@ -70,19 +69,19 @@ const SliderCard = () => {
                 </a>
 
 
-                <h4 className="card-title mt-2">
-                  {card.title} <span style={{ float: "right" }}>&#8599;</span>
-                </h4>
-
-
+                <h5 className="card-title mt-2 fw-bold">
+                  {card.title} <span style={{ float: "right" }}><i class="fa-solid fa-arrow-right"></i></span>
+                </h5>
                 <p className="card-text" style={{ color: "grey", textAlign: "justify" }}>{card.text}</p>
-
               </div>
             </div>
           </div>
         ))}
       </div>
     </div>
+    </div>
+
+
 
   );
 };

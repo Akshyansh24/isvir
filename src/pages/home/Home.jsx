@@ -1,17 +1,18 @@
 import React from 'react'
 import Banner from './Banner'
 import SliderCard from './SliderCard'
-import SliderVideoLibrary from './SliderVideoLibrary'
 import ExploringContent from './ExploringContent'
+import SliderVideoLibrary from "./SliderVideoLibrary"
+import CounterBox from './CounterBox'
 
 function Home() {
   return (
     <>
-    <Banner/>
-
-    {/* <SliderCard/> */}
-    <SliderVideoLibrary/>       
-    <ExploringContent/>
+      <Banner />
+      <SliderCard />
+      <SliderVideoLibrary/>
+      <ExploringContent />
+      <CounterBox/>
     </>
 
   )
