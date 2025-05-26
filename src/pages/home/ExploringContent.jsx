@@ -13,7 +13,7 @@ function ExploringContent() {
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
-                                    <span className='tag' style={{color:"white", backgroundColor:"red"}}>Event</span>
+                                    <span className='tag' style={{ color: "white", backgroundColor: "red" }}>Event</span>
                                     <button className='btn-semiTransparent likeBtn'><i class="fa-solid fa-heart"></i></button>
                                 </div>
                                 <Card.Img
@@ -25,11 +25,11 @@ function ExploringContent() {
                             </div>
                             <Card.Body>
                                 <Card.Title className="my-3">
-                                    Upcoming International Events 
+                                    Upcoming International Events
                                 </Card.Title>
 
                                 <Card.Text style={{ color: "grey", textAlign: "justify" }}>
-                                Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
+                                    Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -39,7 +39,7 @@ function ExploringContent() {
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
-                                    <span className='tag' style={{color:"white", backgroundColor:"red"}}>Event</span>
+                                    <span className='tag' style={{ color: "white", backgroundColor: "red" }}>Event</span>
                                     <button className='btn-semiTransparent likeBtn'><i class="fa-solid fa-heart"></i></button>
                                 </div>
                                 <Card.Img
@@ -51,11 +51,11 @@ function ExploringContent() {
                             </div>
                             <Card.Body>
                                 <Card.Title className="my-3">
-                                    Upcoming International Events 
+                                    Upcoming International Events
                                 </Card.Title>
 
                                 <Card.Text style={{ color: "grey", textAlign: "justify" }}>
-                                Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
+                                    Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -65,7 +65,7 @@ function ExploringContent() {
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
-                                    <span className='tag' style={{color:"white", backgroundColor:"red"}}>Event</span>
+                                    <span className='tag' style={{ color: "white", backgroundColor: "red" }}>Event</span>
                                     <button className='btn-semiTransparent likeBtn'><i class="fa-solid fa-heart"></i></button>
                                 </div>
                                 <Card.Img
@@ -77,11 +77,11 @@ function ExploringContent() {
                             </div>
                             <Card.Body>
                                 <Card.Title className="my-3">
-                                    Upcoming International Events 
+                                    Upcoming International Events
                                 </Card.Title>
 
                                 <Card.Text style={{ color: "grey", textAlign: "justify" }}>
-                                Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
+                                    Embark on a global journey of knowledge and discovery. Explore our lineup of upcoming international events, where you can connect with experts, share ideas, and expand your horizons.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
