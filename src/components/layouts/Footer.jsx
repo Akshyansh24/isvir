@@ -1,15 +1,14 @@
 import React from 'react'
 import Logo from "../../assets/images/isvir_logo_white.svg"
-import Cn from "../../assets/images/cn.webp"
-import De from "../../assets/images/de.webp"
-import Fr from "../../assets/images/fr.webp"
-import Gb from "../../assets/images/gb.webp"
-import In from "../../assets/images/in.webp"
-import Nl from "../../assets/images/nl.webp"
-import Np from "../../assets/images/np.webp"
-import Ru from "../../assets/images/ru.webp"
-import Sg from "../../assets/images/in.webp"
-import Us from "../../assets/images/us.webp"
+import ChinaFlag from "../../assets/images/flags/china.svg"
+import franceFlag from "../../assets/images/flags/france.svg"
+import germanyFlag from "../../assets/images/flags/germany.svg"
+import indiaFlag from "../../assets/images/flags/in.svg"
+import netherlandFlag from "../../assets/images/flags/netherlands.svg"
+import russiaFlag from "../../assets/images/flags/russia.svg"
+import singaporeFlag from "../../assets/images/flags/singapore.svg"
+import ukFlag from "../../assets/images/flags/uk.svg"
+import uSFlag from "../../assets/images/flags/us.svg"
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
@@ -18,50 +17,35 @@ function Footer() {
     const counterData = [
         {
             id: '1',
-            img: In,
+            name:"india",
+            img: indiaFlag,
             count: "16840"
         },
         {
             id: '2',
-            img: Us,
+            name:"us",
+            img: uSFlag,
             count: "4555"
         },
         {
             id: '3',
-            img: Cn,
+            name:"china",
+            img: ChinaFlag,
             count: "2253"
         },
         {
             id: '4',
-            img: Ru,
+            name:"Russia",
+            img: russiaFlag,
             count: "684"
         },
         {
             id: '5',
-            img: Fr,
+            name:"France",
+            img: franceFlag,
             count: "539"
         },
-        {
-            id: '6',
-            img: De,
-            count: "518"
-        }, {
-            id: '7',
-            img: Gb,
-            count: "518"
-        }, {
-            id: '8',
-            img: Sg,
-            count: "368"
-        }, {
-            id: '9',
-            img: Nl,
-            count: "273"
-        }, {
-            id: '10',
-            img: Np,
-            count: "199"
-        }
+
     ]
     return (
         <footer>
@@ -76,17 +60,21 @@ function Footer() {
                                     </Link>
                                 </div>
 
-                                <h3 class="text-white mb-3">Follow Us on</h3>
+                                <h3 class="text-white mb-3 followUsText">Follow Us on</h3>
                                 <ul className='social-icon-three'>
-                                    <li>
-                                        <Link><i class="fa-brands fa-facebook-f"></i></Link>
-                                    </li>        <li>
-                                        <Link><i class="fa-brands fa-twitter"></i></Link>
-                                    </li>        <li>
-                                        <Link><i class="fa-brands fa-youtube"></i></Link>
-                                    </li>        <li>
+                                <li>
                                         <Link><i class="fa-brands fa-linkedin"></i></Link>
                                     </li>
+                                    <li>
+                                        <Link><i class="fa-brands fa-square-facebook"></i></Link>
+                                    </li>        
+                                    <li>
+                                        <Link><i class="fa-brands fa-square-x-twitter"></i></Link>
+                                    </li>        
+                                    <li>
+                                        <Link><i class="fa-brands fa-youtube"></i></Link>
+                                    </li>       
+                              
                                 </ul>
                                 <hr />
                                 <div>
