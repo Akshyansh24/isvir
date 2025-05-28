@@ -9,6 +9,7 @@ import russiaFlag from "../../assets/images/flags/russia.svg"
 import singaporeFlag from "../../assets/images/flags/singapore.svg"
 import ukFlag from "../../assets/images/flags/uk.svg"
 import uSFlag from "../../assets/images/flags/us.svg"
+import nepal from "../../assets/images/flags/nepal.svg"
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
@@ -43,6 +44,36 @@ function Footer() {
             id: '5',
             name:"France",
             img: franceFlag,
+            count: "539"
+        },
+                {
+            id: '6',
+            name:"Germany",
+            img: germanyFlag,
+            count: "539"
+        },
+                        {
+            id: '7',
+            name:"Uk",
+            img: ukFlag,
+            count: "539"
+        },
+                             {
+            id: '8',
+            name:"Singapore",
+            img: singaporeFlag,
+            count: "539"
+        },
+                                    {
+            id: '9',
+            name:"Netherland",
+            img: netherlandFlag,
+            count: "539"
+        },
+                                    {
+            id: '10',
+            name:"Nepal",
+            img: nepal,
             count: "539"
         },
 
