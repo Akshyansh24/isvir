@@ -5,4 +5,7 @@ import Events from "./events/OurEvents";
 import ContactUs from "./contactus/ContactUs";
 import About from "./aboutus/About";
 import Career from "./career/Career";
-export {Home, JuniorWing,Events,ContactUs,About,Career};
+import Profile from "./myprofile/Profile";
+import AwardRecognition from "./awardrecognition/AwardRecognition";
+import Executive from "./newexecutive/Executive";
+export {Home, JuniorWing,Events,ContactUs,About,Career,Profile,AwardRecognition, Executive };

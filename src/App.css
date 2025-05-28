@@ -205,7 +205,6 @@ footer{
   font-size: 0.95rem;
   color: #5F2DED;
 }
-
 /* 
 junior memeber 2024 css */
 .junior-2024-container {
@@ -233,8 +232,8 @@ junior memeber 2024 css */
   text-align: center;
 }
 .junior-2024-image-wrapper {
-  width: 173px;
-  height: 190px;
+  width: 185px;
+  height: 195px;
   border-radius: 5%;
   overflow: hidden;
   margin-top: 0.5rem;
@@ -370,9 +369,9 @@ junior memeber 2024 css */
   transition: all 0.3s ease;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-}
+} 
 .category-button:hover {
-  background-color: #f8f9fa;
+background-color: 'rgba(95, 32, 237, 0.05)' ;
   border-color: #ddd;
 }
 .image-card-row {
@@ -590,11 +589,12 @@ color: black;
   border-radius: 15px !important;
 }
 .contactbottomcards p{
-  margin-left:20px;
+  margin-left:10px;
 }
 .contactbottomcards h6{
   font-weight: 700;
-  font-size:18px;
+  font-size:21px;
+  margin-left:10px;
 }
 
 .contactsection{
@@ -612,28 +612,35 @@ color: black;
   font-weight: bold;
   font-size: 16px; 
 }
+.contacticon{
+  font-size:25px;
+}
+.contactindian{
+  margin-bottom:35px;
+}
 /* about css */
 .about-main {
-  background-color: #f9f9f9;
+ background-color:rgba(95, 32, 237, 0.05);
 }
 
 .about-card {
   background: #ffffff;
-  border-radius: 10px;
-  border: none;
+  border-radius: 20px !important;
+  border: transparent !important;
 }
 
 .about-info-card {
   background: #ffffff;
   border-radius: 10px;
   transition: all 0.3s ease;
-  border: none;
+  border: transparent !important;
 }
 
 .about-info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important; */
 }
+
 
 .about-main h4 {
   color: black;
@@ -650,32 +657,20 @@ color: black;
   color: #0e76ec;
 }
 
-.black-bar {
+.red-bar {
   width: 50px;
   height: 3px;
-  background-color: black;
+  background-color: red;
 }
-
-
-/* .stat-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  border: none;
+.aboutusbottom{
+  font-size:16px;
+  font-weight:600;
+  color:black;
 }
-
-.stat-number {
-  color: black;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+.aboutusnumber{
+  font-size:25px !important;
+  font-weight:700;
 }
-
-.stat-label {
-  color: #555;
-  font-size: 16px;
-  margin-bottom: 0;
-} */
-
 
 
 .stat-card {
@@ -704,10 +699,39 @@ color: black;
   font-weight: 500;
 }
 
+.blue-bar-top {
+    height: 4px;
+    width: 85%;
+    background-color: #0e76ec;
+    margin-left: 24px;
+    padding:4px;
+   
+}
+.blue-bar-bottom {
+    height: 4px;
+    width: 85%;
+    background-color: #0e76ec;
+   margin-left: 24px;
+    padding:4px;
+}
+.about-info-card {
+    padding: 0 !important;
+    border-radius: 10px !important;
+}
+
+.about-info-card .p-4 {
+    padding: 1.5rem !important;
+}
+
+
+
+
+
 
 /* Awards & Recognition Section*/
 .award-main {
-  background: #f8f9fa;
+  /* background: #f8f9fa; */
+   background-color: 'rgba(95, 32, 237, 0.05)';
   padding: 2rem 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -792,6 +816,8 @@ color: black;
   gap: 0.7rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
+  /* background-color:  #0e8bdf; */
+
 }
 
 .award-year-btn {
@@ -827,7 +853,7 @@ color: black;
 
 .award-card {
   border: none;
-  border-radius: 15px;
+  border-radius: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   height: 100%;
@@ -991,6 +1017,19 @@ color: black;
 .award-main .award-card {
   box-shadow: 0 2px 8px rgba(231, 31, 31, 0.3) !important;
 }
+.award-image-container {
+  margin-left:350px;
+}
+
+.custom-tabs-scroll-container {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;   
+}
+
+.custom-tabs-scroll-container::-webkit-scrollbar {
+    display: none;            
+}
+
 
 /* isvir new executive */
 .executive-page {
@@ -1040,4 +1079,118 @@ font-weight: 600 !important;
 
 .newexecutivedesignation{
   color:#03a9fa;
+}
+.sectionPadding{
+  padding-left: 32px;
+  padding-right:32px;
+}
+
+/* myprofile css */
+
+.sidebar-card,
+.profile-card {
+    min-height: 350px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.profile-designation {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.profile-info-item {
+    font-size: 0.95rem;
+    color: #34495e;
+}
+
+.profile-icon {
+    color: #5F2DED;
+}
+
+.sidebar-menu-item {
+    color: #34495e;
+    font-weight: 500;
+}
+
+.sidebar-menu-item.active {
+    color: #5F2DED;
+}
+
+.data-table-card {
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.table-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.profile-data-table th {
+    background-color: #5F2DED;
+    color: white;
+    font-weight: 500;
+}
+
+.status-completed {
+    color: #28a745;
+    font-weight: 500;
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.status-pending {
+    color: #ffc107;
+    font-weight: 500;
+    background-color: rgba(255, 193, 7, 0.1);
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.status-confirmed {
+    color: #17a2b8;
+    font-weight: 500;
+    background-color: rgba(23, 162, 184, 0.1);
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.showing-entries {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+
+@media (max-width: 991.98px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sidebar-card,
+    .profile-card {
+        min-height: auto !important;
+    }
 }
