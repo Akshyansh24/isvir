@@ -1,0 +1,11 @@
+import React from 'react'
+import MyProfile from './MyProfile'
+function Profile() {
+    return (
+        <div>
+            <MyProfile />
+        </div>
+    )
+}
+
+export default Profile

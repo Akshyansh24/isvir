@@ -44,7 +44,7 @@ function Header() {
                                     <Nav.Link as={NavLink} to="/" className="px-3 text-black">
                                         Home
                                     </Nav.Link>
-                                    <Nav.Link as={NavLink} to="/about" className="px-3 text-black">
+                                    <Nav.Link as={NavLink} to="/aboutus" className="px-3 text-black">
                                         About Us
                                     </Nav.Link>
                                     <Nav.Link as={NavLink} to="/events" className="px-3 text-black">
