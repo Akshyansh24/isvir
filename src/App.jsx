@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Link, Route, RouterProvider } from 'react-router-dom'
 import HomeLayout from './pages/HomeLayout'
-import { Home, JuniorWing, Events, ContactUs, About, Career, Profile, AwardRecognition, Executive } from './pages'
+import { Home, JuniorWing, Events, ContactUs, About, Career, Profile, AwardRecognition, NewExecutive, Login, Patient } from './pages'
 
 
 
@@ -21,7 +21,9 @@ function App() {
           <Route path='career' element={<Career />} />
           <Route path='profile' element={<Profile />} />
           <Route path='awardrecognition' element={<AwardRecognition />} />
-          <Route path='newexecutive' element={<Executive />} />
+          <Route path='newexecutive' element={<NewExecutive />} />
+          <Route path='login' element={<Login/>} />
+          <Route path='for-patient' element={<Patient/>} />
         </Route>
       </>
     )

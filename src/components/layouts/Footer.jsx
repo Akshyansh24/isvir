@@ -87,23 +87,23 @@ function Footer() {
                             <Col xl={6}>
                                 <div className="footerLogo">
                                     <Link>
-                                        <img src={Logo} alt="" srcset="" />
+                                        <img src={Logo} alt="" srcSet="" />
                                     </Link>
                                 </div>
 
-                                <h3 class="text-white mb-3 followUsText">Follow Us on</h3>
+                                <h3 className="text-white mb-3 followUsText">Follow Us on</h3>
                                 <ul className='social-icon-three'>
                                 <li>
-                                        <Link><i class="fa-brands fa-linkedin"></i></Link>
+                                        <Link><i className="fa-brands fa-linkedin"></i></Link>
                                     </li>
                                     <li>
-                                        <Link><i class="fa-brands fa-square-facebook"></i></Link>
+                                        <Link><i className="fa-brands fa-square-facebook"></i></Link>
                                     </li>        
                                     <li>
-                                        <Link><i class="fa-brands fa-square-x-twitter"></i></Link>
+                                        <Link><i className="fa-brands fa-square-x-twitter"></i></Link>
                                     </li>        
                                     <li>
-                                        <Link><i class="fa-brands fa-youtube"></i></Link>
+                                        <Link><i className="fa-brands fa-youtube"></i></Link>
                                     </li>       
                               
                                 </ul>
@@ -112,15 +112,15 @@ function Footer() {
                                     <h4 className='text-white'>Total Visitors</h4>
                                     <Row>
 
-                                        {counterData.map((count) => (
-                                            <Col xl={3}>
-                                                <div className='countBox d-flex align-items-center mt-2'><img src={count.img} alt="" srcset="" /> <span>{count.count}+</span></div>
+                                        {counterData.map((count ,index) => (
+                                            <Col xl={3} key={index}>
+                                                <div className='countBox d-flex align-items-center mt-2'><img src={count.img} alt="" srcSet="" /> <span>{count.count}+</span></div>
                                             </Col>
                                         ))}
                                     </Row>
                                     {/* <ul className='d-flex flex-wrap gap-2'>
                                 {counterData.map((count)=>(
-                                    <li className='countBox'><img src={count.img} alt="" srcset="" /> <span>{count.count}+</span></li>
+                                    <li className='countBox'><img src={count.img} alt="" srcSet="" /> <span>{count.count}+</span></li>
                                 ))}
                             </ul> */}
                                 </div>
@@ -129,7 +129,7 @@ function Footer() {
                             <Col xl={6}>
                                 <div className="footer-column">
                                     <h2 className='widget-title'>Important Links</h2>
-                                    <ul class="user-links">
+                                    <ul className="user-links">
                                         <li><Link to="https://www.thieme.in/jcir" target="_blank">JCIR Research &amp; Publication</Link></li>
                                         <li><Link to="https://iria.org.in/" target="_blank">IRIA</Link></li>
                                         <li><Link to="https://www.sirweb.org/" target="_blank">SIR</Link></li>
@@ -145,7 +145,7 @@ function Footer() {
                             <Col xl={6}>
                                 <div className="footer-column">
                                     <h2 className='widget-title'>Quick Links</h2>
-                                    <ul class="user-links">
+                                    <ul className="user-links">
                                         <li><Link to="https://www.thieme.in/jcir" target="_blank">History</Link></li>
                                         <li><Link to="https://iria.org.in/" target="_blank">Event</Link></li>
                                         <li><Link to="https://www.sirweb.org/" target="_blank">FAQ</Link></li>
@@ -159,22 +159,22 @@ function Footer() {
                                     <h2 className='widget-title'>Contact Us</h2>
                                     <ul className='contact-list'>
                                         <li className='position-relative'>
-                                            <span className='icon' ><i class="fa-solid fa-location-dot"></i></span>
-                                            <div class="text" >
+                                            <span className='icon' ><i className="fa-solid fa-location-dot"></i></span>
+                                            <div className="text" >
                                                 3, 302, DDA Building, V-3S Mall Laxmi Nagar, East Delhi - 110092
                                             </div>
                                         </li>
                                         <li>
-                                            <span class="icon"><i class="fa-solid fa-phone-volume"></i></span>
+                                            <span className="icon"><i className="fa-solid fa-phone-volume"></i></span>
                                             <div>
-                                                <div class="text">Call Us : 24/7</div>
+                                                <div className="text">Call Us : 24/7</div>
                                                 <Link to="tel:+91 9319193560"><strong>+91 93191 93560</strong></Link>
                                             </div>
                                         </li>
                                         <li>
-                                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                            <span className="icon"><i className="fa-solid fa-envelope"></i></span>
                                             <div>
-                                                <div class="text">Do you have a Question?
+                                                <div className="text">Do you have a Question?
                                                 </div>
                                                 <Link to="mailto:info.isvir@gmail.com"><strong>info.isvir@gmail.com</strong></Link>
                                             </div>

@@ -16,6 +16,17 @@ a{
   color: black;
 }
 
+.bg-custom{
+  background: rgba(95, 32, 237, 0.05) !important;
+}
+
+.truncate {
+  display: -webkit-box;
+ /* yahan lines ka number dijiye */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* Global Css */
 

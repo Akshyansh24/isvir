@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import EventsCards from '../../assets/images/EventsCards.png';
 import BackgroundImage from '../../assets/images/BackgroundImage.png';
+import BreadCrumb from '../../components/layouts/BreadCrumb';
 
 const OurEvents = () => {
     const [activeTab, setActiveTab] = useState('Upcoming ISVIR Events');
@@ -77,20 +78,10 @@ const OurEvents = () => {
 
     return (
         <>
+            <BreadCrumb title={"Our Events"}/>
 
+            <section className="eventSection sectionPadding">
 
-            <div className="junior-header py-5" style={{ backgroundImage: `url(${BackgroundImage})` }}>
-                <Container style={{ maxWidth: '1200px' }}>
-                    <div className="text-left">
-                        <h1 className="junior-header-title mb-2">Our Events</h1>
-                        <p className="junior-header-subtitle mb-0">Home - Events</p>
-                    </div>
-                </Container>
-            </div>
-
-            <section className="bg-light py-4">
-                <div style={{ backgroundColor: 'rgba(95, 32, 237, 0.05)' }}>
-                    <Container>
                         <div className="custom-tabs-container mb-4">
                             {tabs.map((tab) => (
                                 <button
@@ -106,19 +97,18 @@ const OurEvents = () => {
                         <Row className="g-4">
                             {currentEvents.map((event, index) => (
                                 <Col md={4} key={index}>
-                                    <Card className="eventcards shadow-sm h-100 text-center border-0">
-                                        <div className="eventsection">
+                                    <Card className="eventcards  h-100 text-center border-0">
+                                        <div className="eventImageCard">
                                             <img src={event.img} alt={event.title} />
                                         </div>
-                                        <Card.Body className="px-3 pt-3 pb-2">
+                                        <Card.Body className="px-3 pt-2 pb-2 d-flex align-items-center">
                                             <Card.Title className="eventtitle">{event.title}</Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </Col>
                             ))}
                         </Row>
-                    </Container>
-                </div>
+     
             </section >
 
         </>

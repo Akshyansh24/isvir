@@ -31,7 +31,6 @@ function ExploringContent() {
     }]
     return (
         <div className='exploring-home pt-90 pb-90'>
-            <div>
                 <Heading title="ISVIR" subtitle="Explore our New Experience" />
                 <Row className='mt-5'>
                     <Col md={4}>
@@ -112,7 +111,7 @@ function ExploringContent() {
                         </Card>
                     </Col>
                 </Row>
-            </div>
+       
         </div>
     )
 }

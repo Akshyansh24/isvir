@@ -1,5 +1,6 @@
 import Home from "./home/Home";
 //import SliderCard from "./home/SliderCard";
+import BreadCrumb from "../components/layouts/BreadCrumb";
 import JuniorWing from "./juniorwing/JuniorWing";
 import Events from "./events/OurEvents";
 import ContactUs from "./contactus/ContactUs";
@@ -7,5 +8,7 @@ import About from "./aboutus/About";
 import Career from "./career/Career";
 import Profile from "./myprofile/Profile";
 import AwardRecognition from "./awardrecognition/AwardRecognition";
-import Executive from "./newexecutive/Executive";
-export {Home, JuniorWing,Events,ContactUs,About,Career,Profile,AwardRecognition, Executive };
+import NewExecutive from "./newexecutive/NewExecutive";
+import Login from "./auth/Login";
+import Patient from "./patient/Patient";
+export {Home, BreadCrumb, JuniorWing,Events,ContactUs,About,Career,Profile,AwardRecognition,  NewExecutive, Login, Patient};

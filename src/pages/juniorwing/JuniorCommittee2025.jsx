@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import MemberImage from '../../assets/images/MemberImage.jpg';
-import BackgroundImage from '../../assets/images/BackgroundImage.png';
+
 
 function JuniorCommittee2025() {
     const committeeMembers = [
@@ -18,21 +18,7 @@ function JuniorCommittee2025() {
 
     return (
         <div>
-            <div
-                className="junior-header py-5"
-                style={{ backgroundImage: `url(${BackgroundImage})` }}
-            >
-                <Container style={{ maxWidth: '1200px' }}>
-                    <div className="text-left">
-                        <h1 className="junior-header-title mb-2">
-                            ISVIR Junior Wing
-                        </h1>
-                        <p className="junior-header-subtitle mb-0">
-                            Home - ISVIR Junior Wing
-                        </p>
-                    </div>
-                </Container>
-            </div>
+x
 
             <Container className="junior-container py-5">
                 <h2 className="junior-heading">Junior Committee 2025</h2>
@@ -48,7 +34,7 @@ function JuniorCommittee2025() {
                                         className="junior-member-image"
                                     />
                                 </div>
-                                <Card.Body className="text-center d-flex flex-column justify-content-center p-2">
+                                <Card.Body className="text-center justify-content-center pt-3 pb-2">
                                     <Card.Title className="junior-member-name mb-0">
                                         <h2 className="m-0">{member.name}</h2>
                                     </Card.Title>

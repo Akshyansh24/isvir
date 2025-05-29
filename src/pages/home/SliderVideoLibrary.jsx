@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 function SliderVideoLibrary() {
     return (
-        <div className='sliderVideoCard-Section pt-90 pb-90'>
-            <Container>
+        <div className='sliderVideoCard-Section pt-90 pb-90 sectionPadding'>
+            <div>
                 <div className='isvirVideoLibrary'>
                     <Row className='d-flex align-items-center'>
                         <Col md={5}>
@@ -52,7 +52,7 @@ function SliderVideoLibrary() {
                         </Col>
                     </Row>
                 </div>
-            </Container>
+            </div>
         </div>
     )
 }
