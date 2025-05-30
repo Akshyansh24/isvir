@@ -1629,8 +1629,8 @@ font-weight: 600 !important;
   color:#03a9fa;
 }
 .sectionPadding{
-  padding-left: 32px;
-  padding-right:32px;
+  padding-left: 50px;
+  padding-right:50px;
 }
 
 /* myprofile css */
@@ -1909,4 +1909,218 @@ outline: 0 !important;
   background: url(./assets/images/findDoctor.png);
   border-radius: 20px !important;
   overflow: hidden !important;
+}
+.nav-tabs .nav-item .nav-link.active {
+    margin-right: 10px;
+    width:100%;
+}
+.tabprofile{
+  background-color: #03a9fa;
+  color:white;
+}
+
+
+
+.nav-pills .nav-link.active {
+  background-color: #03a9fa !important; 
+  color: #fff !important; 
+  font-weight: bold;
+     width:100%;
+}
+
+
+.nav-pills .nav-link {
+  color: #000 !important; 
+  background-color: transparent !important;
+  font-weight: normal;
+     width:100%;
+}
+
+
+.nav-pills .nav-link:hover {
+  background-color: #f0f0f0; 
+  color: #000;
+     width:100%;
+}
+#membership-tabs{
+  background-color: #03a9fa !important;
+}
+.activetable{
+  border: 1px solid #03a9fa !important;
+}
+.medicaldetails{
+   border: 2px solid #03a9fa !important;
+}
+
+
+
+ .accordion-button {
+  background-color: #E3EFFD !important;
+  color: #03A9F4 !important;
+  font-weight: bold !important;
+ 
+  border: 'none';
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+.library-main .library-annual{
+  background-color: #0E8BDF;
+  padding:10px;
+}
+/* .library-annual .nav-link {
+  color: #0E8BDF;  
+  background-color: #0E8BDF; 
+  border: 1px solid #ddd; 
+  border-bottom: none; 
+  border-radius: 0.25rem 0.25rem 0 0;
+  
+}
+
+.library-annual .nav-link.active {
+  color: white;
+  background-color:#0E8BDF ; 
+  
+} */
+
+
+.library-annual .nav-link {
+  background-color: #0E8BDF !important;  
+  color: white !important;              
+  border: 1px solid white !important;  
+   border-radius: 0.75rem 0.75rem 0 0; 
+  
+ 
+}
+.library-annual .nav-link.active, 
+.library-annual .nav-item.show .nav-link {
+  background-color: white !important;   
+  color: #0E8BDF !important;             
+  border: 1px solid #0E8BDF !important;  
+  
+}
+.library-annual .nav-link {
+  background-color: #0E8BDF !important;
+  color: white !important;
+}
+.masterclass .masterclassname{
+font-size:17px;
+}
+.library-annual.nav-tabs {
+  border-radius: 0.75rem 0.75rem 0 0; 
+  overflow: hidden;
+  background-color: #f8f9fa; 
+  border: 1px solid #dee2e6; 
+   background-color: #0E8BDF !important;  
+} 
+
+.library-annual.nav-tabs .nav-link.active {
+  border-bottom-color: transparent; 
+}
+.libraryloadbtn .loadmore{
+    background-color: #0E8BDF;
+    padding:7px;
+    color:white;
+    border-radius:10px;
+    border: 1px solid #0E8BDF;
+    font-weight:600;
+}
+
+
+/* conference css */
+
+.membership-parent-box {
+  background-color: #f5faff;
+  border: 2px solid #03a9f4;
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.membership-title {
+  color: #03A9F4;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.membership-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: #e3effd;
+
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+
+.membership-checkbox {
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.membership-checkbox .form-check-input {
+  width: 18px;
+  height: 18px;
+  border: 1px solid red;
+}
+
+.membership-checkbox .form-check-input:checked {
+  background-color: red;
+  border-color: red;
+}
+
+
+.membership-content {
+  flex: 1;
+}
+
+.membership-name {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.membership-details {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.membership-validity {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.terms-box {
+ 
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.terms-title {
+  color: #03A9F4;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.terms-note {
+  color: #03A9F4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.terms-text {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.5;
 }
