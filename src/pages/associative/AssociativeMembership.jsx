@@ -188,7 +188,7 @@ const AssociateMembership = () => {
                                     />
                                     <div className="membership-name" style={{ width: "60px" }}>Active</div>
                                     <div className="membership-content">
-                                        <div className="membership-details mb-0">
+                                        <div className="membership-details mb-0 ">
                                             Period: Yearly, Amount: 2000, GST @ 18%: 360, Total: ₹ 2360
                                         </div>
                                         <div className="membership-validity">
