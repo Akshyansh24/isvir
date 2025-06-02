@@ -743,6 +743,13 @@ margin-right: 5px;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+.masterclass .card-text{
+  font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 12px;
+}
 .sidebar-card {
   background: #fff;
   border-radius: 8px;
@@ -1943,7 +1950,7 @@ outline: 0 !important;
      width:100%;
 }
 #membership-tabs{
-  background-color: #03a9fa !important;
+  background-color: #0E8BDF  !important;
 }
 .activetable{
   border: 1px solid #03a9fa !important;
@@ -1952,20 +1959,43 @@ outline: 0 !important;
    border: 2px solid #03a9fa !important;
 }
 
+.accordion-header{
+  border-radius: 0.75rem 0.75rem 0 0 !important;
+  overflow: hidden;
+}
 
+.accordion-item{
+      border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
 
  .accordion-button {
   background-color: #E3EFFD !important;
-  color: #03A9F4 !important;
-  font-weight: bold !important;
- 
-  border: 'none';
+  font-weight: 700;
+  color: #0E8BDF !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
 
-.accordion-button::after {
+.accordion-button[aria-expanded="true"] {
+  background-color: #E3EFFD !important;
+  background: linear-gradient(90deg, #0E8BDF 0%, #3CBBF4 100%) !important;
+  color: #03A9F4 !important;
+  font-weight: bold !important;
+  border: none !important;
+  color: white !important;
+}
+
+ .accordion-button::after {
   display: none !important;
 }
 
+.accordian-button.accordion-item{
+  
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border: 1px solid #03A9F4;
+ }
 .library-main .library-annual{
   background-color: #0E8BDF;
   padding:10px;
@@ -2006,7 +2036,7 @@ outline: 0 !important;
   color: white !important;
 }
 .masterclass .masterclassname{
-font-size:17px;
+font-size:12px;
 }
 .library-annual.nav-tabs {
   border-radius: 0.75rem 0.75rem 0 0; 
@@ -2036,9 +2066,8 @@ font-size:17px;
   border: 2px solid #03a9f4;
   border-radius: 8px;
   padding: 25px;
-  max-width: 800px;
-  margin: 0 auto;
 }
+
 
 
 .membership-title {
@@ -2061,8 +2090,8 @@ font-size:17px;
 
 
 .membership-checkbox {
-  margin-right: 15px;
-  margin-top: 3px;
+  /* margin-right: 15px; */
+  /* margin-top: 3px; */
 }
 
 .membership-checkbox .form-check-input {
@@ -2123,4 +2152,193 @@ font-size:17px;
   color: #000;
   font-size: 14px;
   line-height: 1.5;
+}
+
+/* ----------------------Sidebar */
+
+ .list-unstyled li a:hover{
+  background-color: rgb(3, 169, 250);
+  color: white;
+}
+
+ .list-unstyled li a{
+  font-size: 15px !important;
+}
+
+/* Librabry */
+
+
+
+
+
+
+.library-main .dropdown{
+position: absolute !important;
+    right: 10px !important;
+    top: 3px !important;
+    color: white;
+}
+
+.library-main .dropdown .dropdown-toggle{
+    color: white !important;
+    border: unset !important;
+}
+
+.library-main .dropdown .dropdown-toggle:hover{
+  background-color: transparent !important;
+  border: unset !important;
+}
+
+.library-main .dropdown .dropdown-toggle.show{
+  background-color: white !important;
+  color: #0E8BDF !important;
+  
+
+}
+
+.library-main .filterDropdown{
+
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+    background: rgb(255 255 255 / 53%);
+  backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+
+.library-annual li button{
+  border-radius: 5px !important ;
+}
+
+.library-annual  .nav-item .nav-link.active{
+  margin-right: unset !important;
+}
+
+.library-main .filterDropdown h4{
+  padding: 10px ;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+border: 1.305px solid #FFF;
+background: rgba(3, 169, 244, 0.21);
+backdrop-filter: blur(8.871874809265137px);
+color: #0E8BDF !important;
+}
+
+.library-main .filterDropdown h6{
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.library-main .filterDropdown .form-check-input{
+  border: 1px solid black !important;
+}
+
+.library-main .filterDropdown  .form-check-input:checked{
+  background-color: #03A9F4 !important;
+}
+
+
+.library-main .filterDropdown .form-check-label{
+  font-weight: 500;
+}
+
+
+.library-main .filterDropdown .dropdown-item.active,
+.library-main .filterDropdown .dropdown-item:active, 
+.library-main .filterDropdown .dropdown-item:hover{
+      background-color: #0E8BDF  !important;
+}
+
+/* ---------------- my Profile */
+
+
+
+.profile-main .membership .nav-link.active, .profile-main .membership .nav-item.show .nav-link
+ {
+    background-color: white !important;
+    color: #0E8BDF !important;
+    border: 1px solid #0E8BDF !important;
+}
+
+
+.profile-main .membership li button {
+    border-radius: 5px !important;
+}
+
+
+.profile-main .membership .nav-link {
+  
+    background-color: #0E8BDF !important ;
+    color: white !important;
+        border: 1px solid white !important;
+}
+
+.profile-main .membership  .nav-item .nav-link.active {
+    margin-right: unset !important;
+}
+
+.profile-main .membership {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    background-color: #0E8BDF !important ;
+}
+
+.profile-main .tab-content{
+  border: 1px solid #03A9F4;
+}
+
+.profile-main .profileTables.table-striped{
+  margin-bottom: 0px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  background: #03A9F414 !important  ;
+
+}
+
+.profileTables  tr td , .profileTables  tr th {
+  padding: 10px;
+  text-align: center;
+}
+
+.associativeMemebershipCard .card-header{
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(90deg, #03A9F4 0%, #3CBBF4 100%);
+  border: 1px solid #0E8BDF;
+
+}
+
+.associativeMemebershipCard .card-header .card-title{
+  font-weight: 700;
+  color: white;
+}
+
+.statusTag{
+    padding: 2px 15px;
+    font-weight: 600;
+    background: rgba(255, 0, 0, 0.15);
+    border-radius: 5px;
+    font-size: 14px;
+    color:black;
+    display: block;
+    width: 100%;
+    text-align: center;
+  
+}
+
+.membership-content{
+  font-weight: 500;
+}
+
+.conference-main  .accordion-collapse.collapse.show .accordion-body{
+  border: 1px solid #03a9f4;
+
 }

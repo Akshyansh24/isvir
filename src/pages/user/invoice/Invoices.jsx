@@ -1,46 +1,27 @@
-
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Table, Tabs, Tab, Accordion } from 'react-bootstrap';
 import { FaFileInvoice, FaCalendarAlt, FaMoneyBillWave } from 'react-icons/fa';
-import BackgroundImage from '../../assets/images/BackgroundImage.png';
-import Sidebar from '../../components/layouts/Sidebar';
-
-const InvoicesSection = () => {
+import BreadCrumb from '../../../components/layouts/BreadCrumb';
+import UserSidebar from '../../../components/layouts/userSidebar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
+function Invoices() {
     const [activeKey, setActiveKey] = useState('isvir2024');
-
     return (
         <>
-            <div
-                className="junior-header py-5"
-                style={{
-                    backgroundImage: `url(${BackgroundImage})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
-            >
-                <Container style={{ maxWidth: '1200px' }}>
-                    <div className="text-left text-white">
-                        <h1 className="junior-header-title mb-2">Invoices</h1>
-                        <p className="junior-header-subtitle mb-0">Home - Invoices</p>
-                    </div>
-                </Container>
-            </div>
-
-
-
-
+            <BreadCrumb title={"Invoices"} />
             <div className="sectionPadding invoice-main py-5">
                 <Row>
-                    <Col lg={4} md={5} className="mb-4 p-3" style={{
+                    <Col lg={3} md={3} className="mb-4 p-3" style={{
                         border: '2px solid #03a9fa',
                         height: '370px',
                         width: '320px',
-                        marginRight: '40px'
-                    }}>
-                        <Sidebar />
+                        background:"white !important",
+                        marginRight: '40px' }}>
+                        <UserSidebar />
                     </Col>
 
-                    <Col lg={8} md={7}>
+                    <Col lg={9} md={9}>
                         <Tabs
                             activeKey={activeKey}
                             onSelect={(k) => setActiveKey(k)}
@@ -89,7 +70,7 @@ const InvoicesSection = () => {
                                                         <td>01</td>
                                                         <td>ISVIR 2024</td>
                                                         <td>15340</td>
-                                                        <td>Invoice</td>
+                                                        <td className='text-danger fw-semibold'><FontAwesomeIcon icon={faFile} className='me-2' /> Invoice</td>
                                                     </tr>
 
                                                 </tbody>
@@ -327,7 +308,7 @@ const InvoicesSection = () => {
             </div>
 
         </>
-    );
-};
+    )
+}
 
-export default InvoicesSection;
+export default Invoices;
