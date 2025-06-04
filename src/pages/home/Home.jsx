@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from './Banner'
 import SliderCard from './SliderCard'
 import ExploringContent from './ExploringContent'
+import CounterBox from './CounterBox'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <Banner />
       <SliderCard />
       <ExploringContent />
+      <CounterBox/>
     </>
 
   )

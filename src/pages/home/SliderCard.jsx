@@ -34,55 +34,54 @@ const SliderCard = () => {
   ];
 
   return (
+    <div className="blog-section-home sectionPadding">
+      <div className=" my-5">
+        <div className="row">
+          {cardsData.map((card) => (
+            <div key={card.id} className="col-md-4 mb-4">
+              <div
+                className="card h-100 rounded p-4"
+                style={{
+                  boxShadow: '0 4px 12px rgba(69, 69, 69, 0.13)',
+                  border: 'none',
+                  transition: 'transform 0.3s ease',
+                  borderRadius: '12px',
+                  overflow: 'hidden',
+                }}
+              >
+                <img
+                  src={card.image}
+                  className="card-img-top"
+                  alt={`Card ${card.id}`}
+                  style={{ height: "220px", objectFit: "cover" }}
+                />
+                <div className="card-body mt-3">
 
 
-    <div className="container my-5">
-      <div className="row">
-        {cardsData.map((card) => (
-          <div key={card.id} className="col-md-4 mb-4">
-            <div
-              className="card h-100 rounded"
-              style={{
-                boxShadow: '0 4px 12px rgba(69, 69, 69, 0.13)',
-                border: 'none',
-                transition: 'transform 0.3s ease',
-                borderRadius: '12px',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                src={card.image}
-                className="card-img-top"
-                alt={`Card ${card.id}`}
-                style={{ height: "220px", objectFit: "cover" }}
-              />
-              <div className="card-body mt-3">
+                  <a
+                    href={card.link}
+                    className="text-decoration-none"
+                    style={{ color: "#6C2DC7", fontSize: "14px", fontWeight: "bold" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {card.title}
+                  </a>
 
 
-                <a
-                  href={card.link}
-                  className="text-decoration-none"
-                  style={{ color: "#6C2DC7", fontSize: "14px", fontWeight: "bold" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {card.title}
-                </a>
-
-
-                <h5 className="card-title mt-2 fw-bold">
-                  {card.title} <span style={{ float: "right" }}>&#8599;</span>
-                </h5>
-
-
-                <p className="card-text" style={{ color: "grey", textAlign: "justify" }}>{card.text}</p>
-
+                  <h5 className="card-title mt-2 fw-bold">
+                    {card.title} <span style={{ float: "right" }}><i class="fa-solid fa-arrow-right"></i></span>
+                  </h5>
+                  <p className="card-text" style={{ color: "grey", textAlign: "" }}>{card.text}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
+
+
 
   );
 };

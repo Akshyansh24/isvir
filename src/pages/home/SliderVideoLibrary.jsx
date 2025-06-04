@@ -5,13 +5,12 @@ import videoSlider from "../../assets/images/videoSlider.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-import 'swiper/css';
-import 'swiper/css/pagination';
+
 
 function SliderVideoLibrary() {
     return (
-        <div className='sliderVideoCard-Section pt-90 pb-90'>
-            <Container>
+        <div className='sliderVideoCard-Section pt-90 pb-90 sectionPadding'>
+            <div>
                 <div className='isvirVideoLibrary'>
                     <Row className='d-flex align-items-center'>
                         <Col md={5}>
@@ -22,7 +21,7 @@ function SliderVideoLibrary() {
                         <Col md={7}>
                             <div>
                                 <Swiper
-                                    slidesPerView={3}
+                                    slidesPerView={2}
                                     spaceBetween={30}
                                     grabCursor={true}
                                     loop={true} // loop on
@@ -53,7 +52,7 @@ function SliderVideoLibrary() {
                         </Col>
                     </Row>
                 </div>
-            </Container>
+            </div>
         </div>
     )
 }
