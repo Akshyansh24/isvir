@@ -3,7 +3,7 @@ import Banner from './Banner'
 import SliderCard from './SliderCard'
 import ExploringContent from './ExploringContent'
 import CounterBox from './CounterBox'
-
+import SliderVideoLibrary from './SliderVideoLibrary'
 
 function Home() {
   return (
@@ -11,6 +11,7 @@ function Home() {
       <Banner />
       <SliderCard />
       <ExploringContent />
+      <SliderVideoLibrary/>
       <CounterBox/>
     </>
 

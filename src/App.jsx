@@ -22,13 +22,13 @@ function App() {
           <Route path='for-patient' element={<Patient />} />
 
 
-          <Route path='user' >
-            <Route path='invoices' element={<Invoices />} />
-            <Route path='conference' element={<ConferenceandCertificates />} />
-            <Route path='library' element={<Library />} />
-            <Route path='associative-members' element={<AssociateMembership />} />
-            <Route path='user-profile' element={<MyProfile />} />
-          </Route>
+            <Route path='user' >
+              <Route path='invoices' element={<Invoices />} />
+              <Route path='conference' element={<ConferenceandCertificates />} />
+              <Route path='library' element={<Library />} />
+              <Route path='associative-members' element={<AssociateMembership />} />
+              <Route path='user-profile' element={<MyProfile />} />
+            </Route>
 
         </Route>
       </>

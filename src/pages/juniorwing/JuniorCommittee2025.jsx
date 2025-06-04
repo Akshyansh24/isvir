@@ -6,7 +6,7 @@ import MemberImage from '../../assets/images/MemberImage.jpg';
 
 function JuniorCommittee2025() {
     const committeeMembers = [
-        { name: "Dr. Adarsh Anil", position: "Coordinator" },
+        { id: 1, name: "Dr. Adarsh Anil", position: "Coordinator" },
         { name: "Dr. Ujjwal Agarwal", position: "Council Member" },
         { name: "Dr. T Seetam Kumar", position: "Council Member" },
         { name: "Dr. Rajat Singhal", position: "Council Member" },

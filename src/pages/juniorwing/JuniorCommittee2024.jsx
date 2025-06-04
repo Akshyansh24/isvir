@@ -6,7 +6,7 @@ import MemberImage from '../../assets/images/MemberImage.jpg';
 
 function JuniorCommittee2024() {
     const committeeMembers = [
-        { name: "Dr. Samarth S Gowda", position: "Coordinator" },
+        { id:1, name: "Dr. Samarth S Gowda", position: "Coordinator" },
         { name: "Dr. Melia Avinash", position: "Council Member" },
         { name: "Dr. Damandeep Singh", position: "Council Member" },
         { name: "Dr. Darshan Thummer", position: "Council Member" },
