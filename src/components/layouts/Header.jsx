@@ -115,7 +115,7 @@ function Header() {
                                                 </NavLink>
                                             </li>
                                             <li>
-                                                <NavLink to="/aboutus/team" className="dropdown-item">
+                                                <NavLink to="/internationalgrant" className="dropdown-item">
                                                     ISVIR International Grant
                                                 </NavLink>
                                             </li>

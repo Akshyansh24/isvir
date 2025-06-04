@@ -7,6 +7,7 @@ import ConstitutionIsvir from './pages/constitutionisvir/ConstitutionIsvir'
 import CenterExcellence from './pages/centerofexcellence/CenterExcellence';
 import InternationalFellowship from './pages/internationalfellowship/InternationalFellowship'
 import IRTrainingCenters from './pages/irtrainingcenter/IRTrainingCenters'
+import InternationalGrant from './pages/internationalgrant/InternationalGrant'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='centerofexcellence' element={<CenterExcellence />} />
           <Route path='internationalfellowship' element={<InternationalFellowship />} />
           <Route path='irtrainingcenter' element={<IRTrainingCenters />} />
+          <Route path='internationalgrant' element={<InternationalGrant />} />
 
           <Route path='user' >
             <Route path='invoices' element={<Invoices />} />

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 import BreadCrumb from '../../components/layouts/BreadCrumb';
@@ -7,14 +6,14 @@ import { faUniversity } from '@fortawesome/free-solid-svg-icons';
 
 const InternationalFellowship = () => {
     const selectedCandidates = [
-        { name: "Dr Abhishek Bansal", institution: "Hilicrest Medical Center" },
-        { name: "Dr Jineesh Valakkada", institution: "Lakeland Regional Medical Center" },
-        { name: "Dr Raghav Seth", institution: "UT Southwestern Medical Center" },
-        { name: "Dr Anurag Mehndiratta", institution: "UT Southwestern Medical Center" },
-        { name: "Dr Dheeraj Shyam Venkat Narayan", institution: "UT Southwestern Medical Center" },
-        { name: "Dr Varun Yadav", institution: "UT Southwestern Medical Centre" },
-        { name: "Dr Darshan Thummar", institution: "The Lerner College of Medicine" },
-        { name: "Dr Dixit Varma", institution: "The Lerner College of Medicine" }
+        { id: 1, name: "Dr Abhishek Bansal", institution: "Hilicrest Medical Center" },
+        { id: 2, name: "Dr Jineesh Valakkada", institution: "Lakeland Regional Medical Center" },
+        { id: 3, name: "Dr Raghav Seth", institution: "UT Southwestern Medical Center" },
+        { id: 4, name: "Dr Anurag Mehndiratta", institution: "UT Southwestern Medical Center" },
+        { id: 5, name: "Dr Dheeraj Shyam Venkat Narayan", institution: "UT Southwestern Medical Center" },
+        { id: 6, name: "Dr Varun Yadav", institution: "UT Southwestern Medical Centre" },
+        { id: 7, name: "Dr Darshan Thummar", institution: "The Lerner College of Medicine" },
+        { id: 8, name: "Dr Dixit Varma", institution: "The Lerner College of Medicine" }
     ];
 
     return (
@@ -22,12 +21,11 @@ const InternationalFellowship = () => {
             <BreadCrumb title={"International Fellowship"} />
 
             <section className="international-fellowship sectionPadding">
-
                 <h6 className="fellowship-title mb-2 mt-2 fw-bold">Selected Candidate : ISVIR SIR International Fellowship 2025</h6>
 
                 <Row className="g-4 mb-0">
-                    {selectedCandidates.map((candidate, index) => (
-                        <Col key={index} xs={12} sm={6} md={4} lg={3}>
+                    {selectedCandidates.map((candidate) => (
+                        <Col key={candidate.id} xs={12} sm={6} md={4} lg={3}>
                             <Card className="fellowship-card text-center h-100 shadow-sm border-0">
                                 <Card.Body className="p-4">
                                     <Card.Title className="fellowship-name h6 fw-bold text-danger mb-2">
@@ -43,8 +41,7 @@ const InternationalFellowship = () => {
                     ))}
                 </Row>
 
-
-                <hr className="my-4  opacity-50" style={{ border: '1px solid grey' }} />
+                <hr className="my-4 opacity-50" style={{ border: '1px solid grey' }} />
 
                 <Card className="border-0 mb-4">
                     <Card.Body className="p-4">
@@ -71,10 +68,9 @@ const InternationalFellowship = () => {
                         </ol>
                     </Card.Body>
                 </Card>
-
             </section>
         </>
     );
 };
 
-export default InternationalFellowship; 
+export default InternationalFellowship;

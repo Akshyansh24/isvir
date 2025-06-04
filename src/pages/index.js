@@ -20,5 +20,6 @@ import PresidentailAddress from "./presidentialaddress/PresidentailAddress";
 import CenterExcellence from "./centerofexcellence/CenterExcellence";
 import InternationalFellowship from "./internationalfellowship/InternationalFellowship";
 import IRTrainingCenters from "./irtrainingcenter/IRTrainingCenters";
-export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile,ConstitutionIsvir ,PresidentailAddress ,CenterExcellence,InternationalFellowship,IRTrainingCenters };
+import InternationalGrant from "./internationalgrant/InternationalGrant";
+export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile,ConstitutionIsvir ,PresidentailAddress ,CenterExcellence,InternationalFellowship,IRTrainingCenters,InternationalGrant };
 
