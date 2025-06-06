@@ -9,6 +9,7 @@ import Career from "./career/Career";
 import AwardRecognition from "./awardrecognition/AwardRecognition";
 import NewExecutive from "./newexecutive/NewExecutive";
 import Login from "./auth/Login";
+import JoinIsvir from "./auth/JoinIsvir";
 import Patient from "./patient/Patient";
 import Invoices from "./user/invoice/Invoices";
 import ConferenceandCertificates from "./user/conference/ConferenceandCertificates";
@@ -21,5 +22,5 @@ import CenterExcellence from "./centerofexcellence/CenterExcellence";
 import InternationalFellowship from "./internationalfellowship/InternationalFellowship";
 import IRTrainingCenters from "./irtrainingcenter/IRTrainingCenters";
 import InternationalGrant from "./internationalgrant/InternationalGrant";
-export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile,ConstitutionIsvir ,PresidentailAddress ,CenterExcellence,InternationalFellowship,IRTrainingCenters,InternationalGrant };
+export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile,ConstitutionIsvir ,PresidentailAddress ,CenterExcellence,InternationalFellowship,IRTrainingCenters,InternationalGrant,JoinIsvir };
 

@@ -110,7 +110,7 @@ function AwardRecognition() {
 
                 <div className='sectionPadding' style={{ backgroundColor: 'rgba(95, 32, 237, 0.05) !important;' }}>
                     <div className="award-main py-4">
-                        {/* Tabs */}
+
                         <div
                             className="custom-tabs-scroll-container d-flex overflow-auto mb-4 p-1 gap-2"
                             style={{
@@ -140,7 +140,7 @@ function AwardRecognition() {
                             ))}
                         </div>
 
-                        {/* Year Buttons */}
+
                         <div className="award-years mb-4 d-flex gap-2">
                             {years.map((year) => (
                                 <button
@@ -201,14 +201,14 @@ function AwardRecognition() {
                                                             {item.address}
                                                         </p></div>
                                                     <hr className="line my-2" style={{ borderTop: '1px solid #dc3545', width: '100%' }} />
-                                                    <div className='d-flex p-3' style={{height:"100%"}}>
+                                                    <div className='d-flex p-3' style={{ height: "100%" }}>
                                                         <div className='w-75 position-relative'>
                                                             <p className="mb-2 text-start d-flex align-items-center">
-                                                                <i><img src={mailIcon} alt="" srcset="" className='me-2' style={{width:"20px"}} /></i>
+                                                                <i><img src={mailIcon} alt="" srcset="" className='me-2' style={{ width: "20px" }} /></i>
                                                                 <a
                                                                     href={`mailto:${item.email}`}
                                                                     className="text-decoration-none"
-                                                                    style={{ color: 'black', fontWeight:"600" }}
+                                                                    style={{ color: 'black', fontWeight: "600" }}
                                                                 >
                                                                     {item.email}
                                                                 </a>
@@ -233,6 +233,8 @@ function AwardRecognition() {
                                 ))
                             )}
                         </Row>
+
+
                     </div>
                 </div>
             </>

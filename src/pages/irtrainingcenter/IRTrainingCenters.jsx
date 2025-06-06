@@ -23,7 +23,7 @@ const IRTrainingCenters = () => {
                 <Card className="shadow-sm mb-5">
                     <Card.Body className="p-0">
                         <div className="table-responsive">
-                            <Table hover responsive className="mb-0">
+                            <Table hover responsive className="mb-0 irtrainingtable">
                                 <thead className="table-danger">
                                     <tr>
                                         <th width="5%">#</th>
