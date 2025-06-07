@@ -32,8 +32,8 @@ function ExploringContent() {
     return (
         <div className='exploring-home pt-90 pb-90'>
                 <Heading title="ISVIR" subtitle="Explore our New Experience" />
-                <Row className='mt-5'>
-                    <Col md={4}>
+                <Row className='mt-lg-5 mt-3'>
+                    <Col lg={4} md={6} className='mb-4'>
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
@@ -59,7 +59,7 @@ function ExploringContent() {
                         </Card>
                     </Col>
 
-                    <Col md={4}>
+                    <Col lg={4} md={6} className='mb-4'>
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
@@ -85,7 +85,7 @@ function ExploringContent() {
                         </Card>
                     </Col>
 
-                    <Col md={4}>
+                    <Col lg={4} md={6} className='mb-4'>
                         <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
                             <div className='position-relative'>
                                 <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">

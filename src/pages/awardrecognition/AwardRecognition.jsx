@@ -106,8 +106,6 @@ function AwardRecognition() {
         <div>
             <>
                 <BreadCrumb title={"Award & Recognition"} />
-
-
                 <div className='sectionPadding' style={{ backgroundColor: 'rgba(95, 32, 237, 0.05) !important;' }}>
                     <div className="award-main py-4">
                         {/* Tabs */}
@@ -169,15 +167,13 @@ function AwardRecognition() {
                                 </p>
                             ) : (
                                 currentAwards.winners.map((item, index) => (
-                                    <Col md={6} key={index}>
-                                        <Card
-                                            className="award-card h-100 border-0"
-                                            style={{
-                                                borderRadius: '15px',
-                                                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                                            }}
+                                    <Col lg={6} md={12} key={index} className='mb-4 mb-lg-0'>
+                                        <Card className="award-card h-100 border-0" style={{
+                                            borderRadius: '15px',
+                                            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                                        }}
                                         >
-                                            <div className="award-content d-flex" style={{ minHeight: '215px' }}>
+                                            <div className="award-content d-flex" >
                                                 <div
                                                     className="award-img-container"
                                                     style={{
@@ -201,14 +197,14 @@ function AwardRecognition() {
                                                             {item.address}
                                                         </p></div>
                                                     <hr className="line my-2" style={{ borderTop: '1px solid #dc3545', width: '100%' }} />
-                                                    <div className='d-flex p-3' style={{height:"100%"}}>
+                                                    <div className='d-flex p-3' style={{ height: "100%" }}>
                                                         <div className='w-75 position-relative'>
                                                             <p className="mb-2 text-start d-flex align-items-center">
-                                                                <i><img src={mailIcon} alt="" srcset="" className='me-2' style={{width:"20px"}} /></i>
+                                                                <i><img src={mailIcon} alt="" srcset="" className='me-2' style={{ width: "20px" }} /></i>
                                                                 <a
                                                                     href={`mailto:${item.email}`}
                                                                     className="text-decoration-none"
-                                                                    style={{ color: 'black', fontWeight:"600" }}
+                                                                    style={{ color: 'black', fontWeight: "600" }}
                                                                 >
                                                                     {item.email}
                                                                 </a>

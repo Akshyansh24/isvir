@@ -2,7 +2,12 @@ import { Container } from 'react-bootstrap'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Link, Route, RouterProvider } from 'react-router-dom'
 import HomeLayout from './pages/HomeLayout'
-import { Home, JuniorWing, Events, ContactUs, About, Career, AwardRecognition, NewExecutive, Login, Patient, Invoices, ConferenceandCertificates, Library, AssociateMembership, MyProfile } from './pages'
+import { Home, JuniorWing, Events, ContactUs, About, Career, AwardRecognition, NewExecutive, Login, Patient, Invoices, ConferenceandCertificates, Library, AssociateMembership, MyProfile, PresidentailAddress } from './pages'
+import ConstitutionIsvir from './pages/constitutionisvir/ConstitutionIsvir'
+import CenterExcellence from './pages/centerofexcellence/CenterExcellence';
+import InternationalFellowship from './pages/internationalfellowship/InternationalFellowship'
+import IRTrainingCenters from './pages/irtrainingcenter/IRTrainingCenters'
+import InternationalGrant from './pages/internationalgrant/InternationalGrant'
 
 function App() {
 
@@ -20,7 +25,12 @@ function App() {
           <Route path='newexecutive' element={<NewExecutive />} />
           <Route path='login' element={<Login />} />
           <Route path='for-patient' element={<Patient />} />
-
+          <Route path='constitutionisvir' element={<ConstitutionIsvir />} />
+          <Route path='president' element={<PresidentailAddress />} />
+          <Route path='centerofexcellence' element={<CenterExcellence />} />
+          <Route path='internationalfellowship' element={<InternationalFellowship />} />
+          <Route path='irtrainingcenter' element={<IRTrainingCenters />} />
+          <Route path='internationalgrant' element={<InternationalGrant />} />
 
             <Route path='user' >
               <Route path='invoices' element={<Invoices />} />

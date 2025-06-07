@@ -15,5 +15,11 @@ import ConferenceandCertificates from "./user/conference/ConferenceandCertificat
 import Library from "./user/library/Library";
 import AssociateMembership from "./user/associative/AssociativeMembership";
 import MyProfile from "./user/myprofile/MyProfile";
-export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile };
+import ConstitutionIsvir from "./constitutionisvir/ConstitutionIsvir";
+import PresidentailAddress from "./presidentialaddress/PresidentailAddress";
+import CenterExcellence from "./centerofexcellence/CenterExcellence";
+import InternationalFellowship from "./internationalfellowship/InternationalFellowship";
+import IRTrainingCenters from "./irtrainingcenter/IRTrainingCenters";
+import InternationalGrant from "./internationalgrant/InternationalGrant";
+export {Home, JuniorWing,Events,ContactUs,About,Career,AwardRecognition, NewExecutive,Login, Patient,Invoices,ConferenceandCertificates,Library,AssociateMembership, MyProfile,ConstitutionIsvir ,PresidentailAddress ,CenterExcellence,InternationalFellowship,IRTrainingCenters,InternationalGrant };
 

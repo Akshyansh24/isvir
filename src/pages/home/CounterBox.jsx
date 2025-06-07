@@ -32,7 +32,7 @@ function CounterBox() {
             <Row>
 
                 {counterData.map((counterCard)=>(
-                    <Col xl={4}>
+                    <Col xl={4} md={4} className='mt-4 mt-lg-0 mt-md-0' key={counterCard.id}>
                     <div className="count-box">
                         <div class="icon-box">
                             <img src={counterCard.img} alt="" srcset="" />

@@ -38,7 +38,7 @@ const SliderCard = () => {
       <div className=" my-5">
         <div className="row">
           {cardsData.map((card) => (
-            <div key={card.id} className="col-md-4 mb-4">
+            <div key={card.id} className="col-md-6 mb-4 col-lg-4">
               <div
                 className="card h-100 rounded p-4"
                 style={{
