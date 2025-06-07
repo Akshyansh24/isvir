@@ -668,28 +668,7 @@ width: 220px;
 }
 
 
-@media (max-width: 576px) {
-  .junior-heading {
-    font-size: 1.5rem;
-  }
 
-  .junior-member-name {
-    font-size: 0.95rem;
-  }
-
-  .junior-member-position {
-    font-size: 0.9rem;
-  }
-
-  .junior-member-image-container {
-    width: 140px;
-    height: 140px;
-  }
-
-  .junior-member-card {
-    padding: 1rem;
-  }
-}
 
 /* -----------------  junior memeber 2024 -------------- */
 .junior-2024-container {
@@ -944,37 +923,7 @@ background-color: #5F2DED0D !important ;
   transform: translateY(-2px);
   box-shadow: 0 0.25rem 0.5rem rgba(220, 53, 69, 0.4);
 }
-@media (max-width: 992px) {
-  .masterclass-header-title {
-    font-size: 2.2rem;
-  }
 
-  .masterclass-header-subtitle {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 768px) {
-  .masterclass-header-title {
-    font-size: 1.8rem;
-  }
-
-  .masterclass-header-subtitle {
-    font-size: 0.9rem;
-  }
-  .masterclass-content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-@media (max-width: 576px) {
-  .masterclass-header-title {
-    font-size: 1.5rem;
-  }
-
-  .event-image {
-    height: 200px;
-  }
-}
 /* masterseries css */
 
 .outermasterseries{
@@ -1075,21 +1024,7 @@ section.bg-light {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-@media (max-width: 768px) {
-  .custom-tab {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
- .eventcards {
-    width: 90%;                    
-  }
 
-
-
-  .eventtitle {
-    font-size: 0.9rem;
-  }
-}
 /* 
 contact page css */
 
@@ -1334,200 +1269,6 @@ line-height: 1.2;
     margin: 0 auto 15px;
   }
 
-@media (max-width: 768px) {
-  /* .about-main {
-    padding: 2rem 1rem;
-  } */
-
-  .about-card {
-    padding: 1.5rem !important;
-  }
-
-  .about-card .title {
-    font-size: 26px !important;
-    margin-bottom: 30px !important;
-  }
-
-  .about-card .title::after {
-    left: 40%;
-    width: 50px;
-  }
-
-  .about-card .content {
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-    text-align: justify;
-  }
-
-  .about-info-card {
-    margin-bottom: 1.5rem;
-  }
-
-  .about-info-card .content {
-    padding: 10px 15px !important;
-    border-top: 5px solid #0E8BDF;
-    border-bottom: 5px solid #0E8BDF;
-    font-size: 16px;
-  }
-
-  .about-info-card .content .focusIcon {
-    width: 45px;
-    height: 50px;
-    margin-bottom: 20px;
-  }
-
-  .about-info-card .content .title {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  .about-info-card .content p {
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: justify;
-  }
-
-  .aboutusnumber {
-    font-size: 20px !important;
-  }
-
-  .aboutusbottom {
-    font-size: 14px !important;
-  }
-
-  .about-main h4,
-  .patient .headingBox h4 {
-    font-size: 28px !important;
-  }
-
-  .blue-bar {
-    height: 4px;
-    width: 40px;
-    background-color: #0E8BDF;
-    margin: 0 auto 15px;
-  }
-
-  .sectionPadding {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .row.px-4 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .mx-3 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .text-center .p-3 {
-    padding: 1rem !important;
-  }
-
-
-.about-card .title {
-    position: relative; 
-  }
-  .about-card .title::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .patient .headingBox h4 {
-    position: relative; 
-  }
-  .patient .headingBox h4::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .about-main {
-    padding: 2rem 1rem;
-  }
-
-  .about-info-card {
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    border-radius: 0;
-    width:235px;
-    
-  }
-  .about-info-card .content {
-    padding: 15px 15px !important;
-    font-size: 15px;
-    flex-grow: 1;
-    border-top: 4px solid #0E8BDF;
-    border-radius: 0 !important;
-  }
-
-  .about-info-card .content .focusIcon {
-    width: 40px;
-    height: 45px;
-    margin-bottom: 15px;
-  }
-
-  .about-info-card .content .title {
-    font-size: 17px;
-    margin-bottom: 15px;
-  }
-
-  .about-info-card .content p {
-    font-size: 13.5px;
-    line-height: 1.5;
-    text-align: justify;
-    margin-bottom: 0;
-  }
-
-  .blue-bar {
-  
-    background-color: #0E8BDF;
-    border-radius: 0 !important;
-    height: 4px;
-    width: 40px;
-    background-color: #0E8BDF;
-    margin: 0 auto 15px;
-  }
-
-  .aboutusnumber {
-    font-size: 18px !important;
-  }
-
-  .aboutusbottom {
-    font-size: 13px !important;
-  }
-
-  .sectionPadding {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .row.px-4 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .mx-3 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .text-center .p-3 {
-    padding: 1rem !important;
-  }
- 
-}
-
-
-
 /* Awards & Recognition Section*/
 .award-main {
 
@@ -1753,61 +1494,6 @@ line-height: 1.2;
 }
 
 
-@media (max-width: 992px) {
-  .award-content {
-    min-height: 200px;
-  }
-  
-  .award-img-container {
-    width: 180px;
-  }
-}
-
-@media (max-width: 768px) {
-  .award-content {
-    flex-direction: column;
-    min-height: auto;
-  }
-  
-  .award-img-container {
-    width: 100%;
-    height: 180px;
-    border-radius: 15px 15px 0 0 !important;
-  }
-  
-  .award-text {
-    padding: 1.2rem;
-  }
-  
-  .award-tabs {
-    padding-bottom: 15px;
-  }
-  
-  .award-tab-btn {
-    padding: 0.35rem 1rem;
-    margin-right: 0.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .award-main h3 {
-    font-size: 1.5rem;
-  }
-  
-  .award-years {
-    gap: 0.5rem;
-  }
-  
-  .award-year-btn {
-    padding: 0.35rem 1rem;
-    font-size: 0.8rem;
-  }
-  
-  .award-img-container {
-    height: 160px;
-  }
-}
-
 .award-main .award-card {
   box-shadow: 0 4px 8px rgba(231, 31, 31, 0.3) !important;
 }
@@ -1979,63 +1665,6 @@ font-weight: 600 !important;
   font-weight: 600 !important;
 }
 
-/* Responsive Media Queries */
-@media (max-width: 991.98px) {
-  .sectionPadding {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .executive-card .executive-img {
-    height: 250px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .sectionPadding {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .executive-card .executive-img {
-    height: 220px;
-  }
-
-  .executive-card h5 {
-    font-size: 0.95rem;
-  }
-
-  .newexecutivenumber {
-    font-size: 15px !important;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .sectionPadding {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .executive-card {
-    border-radius: 12px !important;
-  }
-
-  .executive-card .executive-img {
-    height: 200px;
-  }
-
-  .executive-card h5 {
-    font-size: 0.9rem;
-  }
-
-  .newexecutivenumber {
-    font-size: 14px !important;
-  }
-
-  .executive-card .infoTextIcon {
-    font-size: 16px;
-  }
-}
 
 /* myprofile css */
 
@@ -2132,22 +1761,6 @@ font-weight: 600 !important;
     font-size: 0.9rem;
     color: #6c757d;
 }
-
-
-
-
-@media (max-width: 991.98px) {
-    .profile-image {
-        width: 100px;
-        height: 100px;
-    }
-
-    .sidebar-card,
-    .profile-card {
-        min-height: auto !important;
-    }
-}
-
 
 /* SectionPadding */
 
@@ -2780,33 +2393,6 @@ color: #0E8BDF !important;
   max-height: 100%;
 }
 
-@media (max-width: 768px) {
-  .btn {
-    font-size: 0.9rem;
-    padding: 0.45rem 1rem;
-  }
-
-  .page.--left {
-    box-shadow: inset -5px 0 20px -5px rgba(0, 0, 0, 0.3);
-  }
-}
-
-@media (max-width: 576px) {
-  .page-content {
-    margin: 0.5rem;
-  }
-
-  .btn {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.9rem;
-  }
-
-  .flipbook-wrapper {
-    justify-content: flex-start;
-  }
-  
-}
-
 
 /* presedentail address css */
  
@@ -2853,64 +2439,6 @@ color: #0E8BDF !important;
   text-align: justify;
 }
 
-@media (max-width: 991px) {
-  .presidential-address-card {
-    max-width: 100%;
-  }
-
-  .president-img {
-    height: 240px;
-  }
-
-  .president-name {
-    font-size: 1.2rem;
-  }
-
-  .president-details h6 {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .presidential-address-section {
-    padding: 20px 15px;
-  }
-
-  .president-img {
-    height: 220px;
-  }
-
-  .president-details h6,
-  .doctor-detail .text p {
-    font-size: 0.9rem;
-  }
-
-  .doctor-detail .text {
-    padding: 0 5px;
-  }
-
-  .president-name {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 575px) {
-  .president-img {
-    height: 200px;
-  }
-
-  .president-name {
-    font-size: 1rem;
-  }
-
-  .president-details h6 {
-    font-size: 0.85rem;
-  }
-
-  .doctor-detail .text {
-    font-size: 0.9rem;
-  }
-}
 
 
 /* isvir international fellowship css */
@@ -3080,6 +2608,557 @@ header.sectionPadding  .navbar{
 
 
 
+
+
+  
+/* join isvir css */
+.membership-card-joinisvir {
+  transition: all 0.3s ease;
+}
+
+.membership-card-joinisvir:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+}
+
+.text-primary {
+  color: #0d6efd !important;
+}
+
+.list-unstyled li {
+  margin-bottom: 0.5rem;
+  color: #6c757d; 
+}
+
+
+.membership-joinisvir-subcards {
+  margin-bottom: 1rem;
+}
+
+.membership-joinisvir-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(241, 147, 147, 0.1);
+
+  margin-bottom: 1rem;
+}
+
+.membership-joinisvir-icon {
+  font-size: 1.5rem;
+  color: #EA1C22 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-isvir-subcontent .joinisvir-content-title{
+font-size: 18px;
+color:#EA1C22 !important
+
+
+}
+
+ .joinisvir-basic-heading{
+  font-size:17px !important;
+  color:#17a2b8 !important;
+}
+
+
+
+
+.membership-card-joinisvir  .card-body{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.membership-card-joinisvir.active{
+  background-color: rgb(240, 65, 65);
+  color: white !important;
+  overflow: hidden;
+
+}
+
+.membership-card-joinisvir.active .membership-joinisvir-icon i{
+  color: red;
+}
+
+
+.membership-card-joinisvir.active .membership-joinisvir-icon-container{
+  background-color: white;
+}
+
+.membership-card-joinisvir.active .joinisvir-content-title{
+  color: white !important;
+}
+
+.membership-card-joinisvir.active .list-unstyled li{
+  color: white !important;
+}
+
+.membership-card-joinisvir.active .list-unstyled li i{
+  color: white !important;
+}
+
+
+/* disha responsive media css */
+
+@media (max-width: 576px) {
+  .junior-heading {
+    font-size: 1.5rem;
+  }
+
+  .junior-member-name {
+    font-size: 0.95rem;
+  }
+
+  .junior-member-position {
+    font-size: 0.9rem;
+  }
+
+  .junior-member-image-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .junior-member-card {
+    padding: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  .masterclass-header-title {
+    font-size: 2.2rem;
+  }
+
+  .masterclass-header-subtitle {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .masterclass-header-title {
+    font-size: 1.8rem;
+  }
+
+  .masterclass-header-subtitle {
+    font-size: 0.9rem;
+  }
+  .masterclass-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .masterclass-header-title {
+    font-size: 1.5rem;
+  }
+
+  .event-image {
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .custom-tab {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+ .eventcards {
+    width: 90%;                    
+  }
+
+  .eventtitle {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+
+  .about-card {
+    padding: 1.5rem !important;
+  }
+
+  .about-card .title {
+    font-size: 26px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .about-card .title::after {
+    left: 40%;
+    width: 50px;
+  }
+
+  .about-card .content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    text-align: justify;
+  }
+
+  .about-info-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info-card .content {
+    padding: 10px 15px !important;
+    border-top: 5px solid #0E8BDF;
+    border-bottom: 5px solid #0E8BDF;
+    font-size: 16px;
+  }
+
+  .about-info-card .content .focusIcon {
+    width: 45px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .about-info-card .content .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .about-info-card .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .aboutusnumber {
+    font-size: 20px !important;
+  }
+
+  .aboutusbottom {
+    font-size: 14px !important;
+  }
+
+  .about-main h4,
+  .patient .headingBox h4 {
+    font-size: 28px !important;
+  }
+
+  .blue-bar {
+    height: 4px;
+    width: 40px;
+    background-color: #0E8BDF;
+    margin: 0 auto 15px;
+  }
+
+  .sectionPadding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .row.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .mx-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .text-center .p-3 {
+    padding: 1rem !important;
+  }
+
+
+.about-card .title {
+    position: relative; 
+  }
+  .about-card .title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .patient .headingBox h4 {
+    position: relative; 
+  }
+  .patient .headingBox h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .about-main {
+    padding: 2rem 1rem;
+  }
+
+  .about-info-card {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 0;
+    width:235px;
+    
+  }
+  .about-info-card .content {
+    padding: 15px 15px !important;
+    font-size: 15px;
+    flex-grow: 1;
+    border-top: 4px solid #0E8BDF;
+    border-radius: 0 !important;
+  }
+
+  .about-info-card .content .focusIcon {
+    width: 40px;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .about-info-card .content .title {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  .about-info-card .content p {
+    font-size: 13.5px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+
+  .blue-bar {
+  
+    background-color: #0E8BDF;
+    border-radius: 0 !important;
+    height: 4px;
+    width: 40px;
+    background-color: #0E8BDF;
+    margin: 0 auto 15px;
+  }
+
+  .aboutusnumber {
+    font-size: 18px !important;
+  }
+
+  .aboutusbottom {
+    font-size: 13px !important;
+  }
+
+  .sectionPadding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .mx-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .text-center .p-3 {
+    padding: 1rem !important;
+  }
+ 
+}
+@media (max-width: 992px) {
+  .award-content {
+    min-height: 200px;
+  }
+  
+  .award-img-container {
+    width: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .award-content {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .award-img-container {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0 !important;
+  }
+  
+  .award-text {
+    padding: 1.2rem;
+  }
+  
+  .award-tabs {
+    padding-bottom: 15px;
+  }
+  
+  .award-tab-btn {
+    padding: 0.35rem 1rem;
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .award-main h3 {
+    font-size: 1.5rem;
+  }
+  
+  .award-years {
+    gap: 0.5rem;
+  }
+  
+  .award-year-btn {
+    padding: 0.35rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .award-img-container {
+    height: 160px;
+  }
+}
+@media (max-width: 991.98px) {
+  .sectionPadding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .executive-card .executive-img {
+    height: 250px;
+  }
+}
+@media (max-width: 767.98px) {
+  .sectionPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .executive-card .executive-img {
+    height: 220px;
+  }
+
+  .executive-card h5 {
+    font-size: 0.95rem;
+  }
+
+  .newexecutivenumber {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .sectionPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .executive-card {
+    border-radius: 12px !important;
+  }
+
+  .executive-card .executive-img {
+    height: 200px;
+  }
+
+  .executive-card h5 {
+    font-size: 0.9rem;
+  }
+
+  .newexecutivenumber {
+    font-size: 14px !important;
+  }
+
+  .executive-card .infoTextIcon {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sidebar-card,
+    .profile-card {
+        min-height: auto !important;
+    }
+}
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.45rem 1rem;
+  }
+
+  .page.--left {
+    box-shadow: inset -5px 0 20px -5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 576px) {
+  .page-content {
+    margin: 0.5rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+  }
+
+  .flipbook-wrapper {
+    justify-content: flex-start;
+  }
+  
+}
+@media (max-width: 991px) {
+  .presidential-address-card {
+    max-width: 100%;
+  }
+
+  .president-img {
+    height: 240px;
+  }
+
+  .president-name {
+    font-size: 1.2rem;
+  }
+
+  .president-details h6 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 767px) {
+  .presidential-address-section {
+    padding: 20px 15px;
+  }
+
+  .president-img {
+    height: 220px;
+  }
+
+  .president-details h6,
+  .doctor-detail .text p {
+    font-size: 0.9rem;
+  }
+
+  .doctor-detail .text {
+    padding: 0 5px;
+  }
+
+  .president-name {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 575px) {
+  .president-img {
+    height: 200px;
+  }
+
+  .president-name {
+    font-size: 1rem;
+  }
+
+  .president-details h6 {
+    font-size: 0.85rem;
+  }
+
+  .doctor-detail .text {
+    font-size: 0.9rem;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .sectionPadding {
     padding-left: 20px;
@@ -3222,8 +3301,6 @@ header.sectionPadding  .navbar{
 
 
 }
-
-
 @media screen and (min-width: 992px) and (max-width: 1250px) {
 
   #basic-navbar-nav .navbar-nav a{
@@ -3235,71 +3312,12 @@ header.sectionPadding  .navbar{
     font-size: 12px !important;
   }
 }
-
-
  @media screen and (min-width:320px)and (max-width:768px){
   .grant-main-content .grant-sub-content{
     padding:0.2rem !important;
   }
  }
-  
-/* join isvir css */
-.membership-card-joinisvir {
-  transition: all 0.3s ease;
-}
-
-.membership-card-joinisvir:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
-}
-
-.text-primary {
-  color: #0d6efd !important;
-}
-
-.list-unstyled li {
-  margin-bottom: 0.5rem;
-  color: #6c757d; 
-}
-
-
-.membership-joinisvir-subcards {
-  margin-bottom: 1rem;
-}
-
-.membership-joinisvir-icon-container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: rgba(241, 147, 147, 0.1);
-
-  margin-bottom: 1rem;
-}
-
-.membership-joinisvir-icon {
-  font-size: 1.5rem;
-  color: #EA1C22 !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.join-isvir-subcontent .joinisvir-content-title{
-font-size: 18px;
-color:#EA1C22 !important
-
-
-}
-
- .joinisvir-basic-heading{
-  font-size:17px !important;
-  color:#17a2b8 !important;
-}
-
-
-@media screen and (min-width:320px) and (max-width:768px){
+ @media screen and (min-width:320px) and (max-width:768px){
   .sectionPadding {
   padding-left: 20px;
   padding-right: 20px;
@@ -3317,40 +3335,6 @@ color:#EA1C22 !important
   text-wrap: nowrap;
 }
 }
-
-.membership-card-joinisvir  .card-body{
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-
-.membership-card-joinisvir.active{
-  background-color: rgb(240, 65, 65);
-  color: white !important;
-  overflow: hidden;
-
-}
-
-.membership-card-joinisvir.active .membership-joinisvir-icon i{
-  color: red;
-}
-
-
-.membership-card-joinisvir.active .membership-joinisvir-icon-container{
-  background-color: white;
-}
-
-.membership-card-joinisvir.active .joinisvir-content-title{
-  color: white !important;
-}
-
-.membership-card-joinisvir.active .list-unstyled li{
-  color: white !important;
-}
-
-.membership-card-joinisvir.active .list-unstyled li i{
-  color: white !important;
-}
-
 
 @media screen and (min-width:320px) and (max-width:768px){
   .sectionPadding {
