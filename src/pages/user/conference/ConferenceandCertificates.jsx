@@ -17,10 +17,10 @@ const ConferenceandCertificates = () => {
 
             <div className="sectionPadding conference-main py-5">
                 <Row>
-                    <Col lg={3} md={3} className="mb-4 p-3" style={{
+                    <Col lg={3} md={3} sm={3}  className="mb-4 p-0" style={{
                         border: '2px solid #03a9fa',
                         height: '370px',
-                        width: '320px',
+                        // width: '320px',
                         marginRight: '40px'
                     }}>
                         <UserSidebar />

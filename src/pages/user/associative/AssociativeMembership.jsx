@@ -64,12 +64,13 @@ const AssociateMembership = () => {
 
             <div fluid className="membership-main py-5 sectionPadding bg-custom">
                 <Row>
-                    <Col lg={3} md={3} className="mb-4 p-3" style={{
+                      <Col lg={3} md={3} sm={3}  className="mb-4 p-0" style={{
                         border: '2px solid #03a9fa',
                         height: '370px',
-                        width: '320px',
-                        background: "white",
-                        marginRight: '40px' }}>
+                        // width: '320px',
+                        marginRight: '40px',
+                        backgroundColor:"white"
+                    }}>
                         <UserSidebar />
                     </Col>
                     <Col lg={8} md={7}>

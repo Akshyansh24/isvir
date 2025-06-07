@@ -85,7 +85,7 @@ function JuniorCommittee2025() {
                                     />
                                 </div>
                                 <Card.Body className="pt-3 pb-2">
-                                    <h2 className="junior-member-name">{member.name}</h2>
+                                    <h2 className="junior-member-name mb-0">{member.name}</h2>
                                     <p className="junior-member-position">{member.position}</p>
                                 </Card.Body>
                             </Card>

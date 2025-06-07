@@ -7,8 +7,9 @@ function UserSidebar() {
     color: 'white',
   };
   return (
-
-  <ul className="list-unstyled" style={{ backgroundColor: "white" }}>
+  <>
+  <h4 className='up-sidebarHeading'>Menus</h4>
+    <ul className="list-unstyled p-3" style={{ backgroundColor: "white" }}>
     {[
       { urlPasses: '/user/user-profile', label: 'My Profile' },
       { urlPasses: '/user/invoices', label: 'Invoices' },
@@ -30,6 +31,8 @@ function UserSidebar() {
 
     </li>
   </ul>
+  </>
+
   )
 }
 

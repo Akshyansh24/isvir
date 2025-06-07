@@ -21,19 +21,18 @@ const MyProfile = () => {
             <section className="profile-main py-5 sectionPadding bg-custom">
                 <div>
                     <Row>
-
-                        <Col lg={3} md={3} className="mb-4 p-3" style={{
-                            border: '2px solid #03a9fa',
-                            height: '370px',
-                            width: '320px',
-                            background: "white",
-                            marginRight: '40px'
-                        }}>
-                            <UserSidebar />
-                        </Col>
+                <Col lg={3} md={3} sm={3}  className="mb-4 p-0" style={{
+                        border: '2px solid #03a9fa',
+                        height: '370px',
+                        // width: '320px',
+                        marginRight: '40px',
+                        backgroundColor:"white"
+                    }}>
+                        <UserSidebar />
+                    </Col>
 
                         <Col lg={8} md={7}>
-                            <Card className="award-card border-0 w-75"
+                            <Card className="award-card border-0 w-lg-75"
                                 style={{ borderRadius: '15px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', }} >
                                 <div className="award-content d-flex" >
                                     <div className="award-img-container"

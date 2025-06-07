@@ -90,8 +90,8 @@ function About() {
                 <Row className="px-4">
 
                     {aboutFocus.map((focusCard) => (
-                        <Col md={4} sm={6} key={focusCard.id}>
-                            <Card className="h-100 about-info-card shadow-sm p-0 mx-3">
+                        <Col md={4} sm={6} className='mb-2 mb-lg-0' key={focusCard.id}>
+                            <Card className="h-100 about-info-card shadow-sm p-0 mx-3 mb-4 mb-lg-0">
 
                                 <div className="content">
                                     <div className="text-center">

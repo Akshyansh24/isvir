@@ -11,12 +11,14 @@ import { Link } from 'react-router-dom';
 function Login() {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
+        
         console.log("Login Data:", data);
+        window.location.href = '/user/user-profile'; 
     };
     return (
         <div className='sectionPadding'>
-            <div className="card d-flex align-items-center flex-column flex-lg-row flex-md-column loginCard">
-                <div className="left py-md-5">
+            <div className="card d-flex align-items-center flex-column flex-md-column flex-lg-row loginCard">
+                <div className="left py-lg-0 py-5">
                     <div className='innerCard'>
                         <img src={logo} alt="" srcset="" />
                         <h5>LOGIN</h5>
@@ -49,9 +51,9 @@ function Login() {
                                 </Form.Group>
 
                                 <div className='d-flex align-items-center justify-content-center'>
-                                        <Button variant="primary" type="submit" className="w-100">
-                                    Login
-                                </Button>
+                                    <Button variant="primary" type="submit" className="w-100">
+                                        Login
+                                    </Button>
                                 </div>
                             </Form>
                             <div className='bottomBox'>

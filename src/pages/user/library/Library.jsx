@@ -28,12 +28,12 @@ const filterCategories = [
             <div className="library-main py-5 bg-custom sectionPadding">
                 <Row>
 
-                    <Col lg={3} md={3} className="mb-4 p-3" style={{
+                     <Col lg={3} md={3} sm={3}  className="mb-4 p-0" style={{
                         border: '2px solid #03a9fa',
                         height: '370px',
-                        width: '320px',
-                        background: "white",
-                        marginRight: '40px'
+                        // width: '320px',
+                        marginRight: '40px',
+                        backgroundColor:"white"
                     }}>
                         <UserSidebar />
                     </Col>

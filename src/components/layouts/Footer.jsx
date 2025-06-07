@@ -82,7 +82,7 @@ function Footer() {
         <footer>
             <Container>
                 <Row>
-                    <Col xl={3} md={6} className='mt-md-5'>
+                    <Col xl={3} md={6} sm={6} className='mt-md-5'>
                         <div className="footerLogo">
                             <Link>
                                 <img src={Logo} alt="" srcSet="" />
@@ -111,7 +111,7 @@ function Footer() {
                             <Row>
 
                                 {counterData.map((count, index) => (
-                                    <Col xl={3} key={index}>
+                                    <Col xl={3} md={3} sm={3} key={index}>
                                         <div className='countBox d-flex align-items-center mt-2'><img src={count.img} alt="" srcSet="" /> <span>{count.count}+</span></div>
                                     </Col>
                                 ))}
@@ -124,7 +124,7 @@ function Footer() {
                         </div>
                     </Col>
 
-                    <Col xl={3} md={6} className='mt-md-5'>
+                    <Col xl={3} md={6} sm={6} className='mt-md-5'>
                         <div className="footer-column">
                             <h2 className='widget-title'>Important Links</h2>
                             <ul className="user-links">
@@ -137,7 +137,7 @@ function Footer() {
                         </div>
                     </Col>
 
-                    <Col xl={3} md={6} className='mt-md-5'>
+                    <Col xl={3} md={6} sm={6} className='mt-md-5'>
                         <div className="footer-column">
                             <h2 className='widget-title'>Quick Links</h2>
                             <ul className="user-links">
@@ -149,7 +149,7 @@ function Footer() {
                             </ul>
                         </div>
                     </Col>
-                    <Col xl={3} md={6} className='mt-md-5'>
+                    <Col xl={3} md={6} sm={6} className='mt-md-5'>
                         <div className="footer-column">
                             <h2 className='widget-title'>Contact Us</h2>
                             <ul className='contact-list'>

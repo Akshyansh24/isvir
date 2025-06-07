@@ -11,17 +11,15 @@ function Invoices() {
         <>
             <BreadCrumb title={"Invoices"} />
             <div className="sectionPadding invoice-main py-5">
-                <Row>
-                    <Col lg={3} md={3} className="mb-4 p-3" style={{
+                <Row className='justify-content-between'>
+                    <Col lg={3} md={3} sm={3}  className="mb-4 p-0" style={{
                         border: '2px solid #03a9fa',
                         height: '370px',
-                        width: '320px',
-                        background:"white !important",
-                        marginRight: '40px' }}>
+                        background:"white !important", }}>
                         <UserSidebar />
                     </Col>
 
-                    <Col lg={9} md={9}>
+                    <Col lg={9} md={9} sm={9} >
                         <Tabs
                             activeKey={activeKey}
                             onSelect={(k) => setActiveKey(k)}

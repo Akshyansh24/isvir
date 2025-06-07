@@ -35,33 +35,33 @@ function ExploringContent() {
             <Row className='mt-lg-5 mt-3'>
 
                 {data.map((item) => (
-               <Col lg={4} md={6} key={item.id} className='mb-4'>
-                    <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
-                        <div className='position-relative'>
-                            <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
-                                <span className='tag' style={{ color: "white", backgroundColor: "red" }}>{item.tag}</span>
-                                <button className='btn-semiTransparent likeBtn'><i class="fa-solid fa-heart"></i></button>
+                    <Col lg={4} md={6} key={item.id} className='mb-4'>
+                        <Card className="h-100 shadow-sm rounded p-3 " style={{ border: 'none', borderRadius: '12px', overflow: 'hidden', transition: 'transform 0.3s ease' }}>
+                            <div className='position-relative'>
+                                <div className="d-flex align-items-center justify-content-between position-absolute w-100 px-2 py-2">
+                                    <span className='tag' style={{ color: "white", backgroundColor: "red" }}>{item.tag}</span>
+                                    <button className='btn-semiTransparent likeBtn'><i class="fa-solid fa-heart"></i></button>
+                                </div>
+                                <Card.Img
+                                    variant="top"
+                                    src={item.img}
+                                    alt="Upcoming International Events"
+                                    style={{ height: "220px", objectFit: "cover" }}
+                                />
                             </div>
-                            <Card.Img
-                                variant="top"
-                                src={item.img}
-                                alt="Upcoming International Events"
-                                style={{ height: "220px", objectFit: "cover" }}
-                            />
-                        </div>
-                        <Card.Body>
-                            <Card.Title className="my-3">
-                               {item.title}
-                            </Card.Title>
+                            <Card.Body>
+                                <Card.Title className="my-3">
+                                    {item.title}
+                                </Card.Title>
 
-                            <Card.Text style={{ color: "grey", textAlign: "justify" }}>
-                                {item.content}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                                <Card.Text style={{ color: "grey", textAlign: "justify" }}>
+                                    {item.content}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 ))}
- 
+
             </Row>
 
         </div>

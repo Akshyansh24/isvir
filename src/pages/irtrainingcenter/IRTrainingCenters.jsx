@@ -10,7 +10,7 @@ const IRTrainingCenters = () => {
 
             <section className="trainingSection sectionPadding">
 
-                <Card className="training-content mb-4 mt-5 border-0">
+                <Card className="training-content mb-4 mt-lg-5 mt-1  border-0">
                     <Card.Body className="p-0">
                         <p>This is a list of training centers across India offering Interventional Radiology training. Please note that the information provided has been directly submitted by the centers themselves. The Indian Society of Vascular and Interventional Radiology (ISVIR) does not hold any responsibility for any discrepancies found within these details.</p>
                         <p className="mb-4">It is advisable to contact the centers directly for more detailed information or any queries you may have.</p>
