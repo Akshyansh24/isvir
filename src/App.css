@@ -5,6 +5,10 @@
     height: 6px;
   }
 
+  header{
+    overflow: hidden;
+  }
+
   header .topBarSocial a {
     color: red;
     font-weight: 500;
@@ -3050,7 +3054,7 @@ color:#EA1C22 !important
   }
 
   .executive-card .executive-img {
-    height: 200px;
+    height: 100%;
   }
 
   .executive-card h5 {
@@ -3337,6 +3341,11 @@ color:#EA1C22 !important
 }
 
 @media screen and (min-width:320px) and (max-width:768px){
+
+
+  .sectionPadding.smallheaderBar{
+    padding: 0px;
+  }
   .sectionPadding {
   padding-left: 20px;
   padding-right: 20px;
@@ -3353,4 +3362,180 @@ color:#EA1C22 !important
 .centerexcellencetable  {
   text-wrap: nowrap;
 }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .sectionPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  header.sectionPadding{
+  padding: 0px 10px;
+  border-radius: 0 !important;
+}
+header.sectionPadding .navbar{
+    border-radius: 0;
+}
+
+#basic-navbar-nav{
+      z-index: 999;
+    background: white;
+}
+
+#basic-navbar-nav .navbar-nav a{
+  font-size: 14px;
+}
+
+#basic-navbar-nav .dropdown-menu li a{
+  font-size: 12px;
+  padding: 12px;
+}
+
+.navbar-nav.list-unstyled{
+  width: 90% !important;
+}
+
+#basic-navbar-nav .dropdown-menu{
+  position: absolute !important;
+}
+
+
+.breadCrumb-header .sectionPadding{
+  padding-left: 22px;
+    padding-right: 22px;
+    justify-content: center;
+}
+
+.breadCrumb-header .right{
+  display: none !important;
+}
+
+.breadCrumb-header-title{
+  font-size: 20px;
+}
+
+
+
+
+.blog-section-home .card .card-img-top{
+  height: 100% !important;
+}
+
+.blog-section-home .card .card-body .card-title{
+  font-size: 16px;
+}
+
+.blog-section-home .card .card-body{
+  padding: 0;
+}
+
+/* ------------------------------------------- */
+
+.exploring-home.pt-90.pb-90, .sliderVideoCard-Section.pt-90.pb-90{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.exploring-home .bigHeading{
+  font-size: 25px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.tag{
+  font-size: 13px;
+  padding: 2px 18px;
+}
+
+
+.exploring-home .card{
+  margin-top: 20px;
+}
+.exploring-home .card .card-body{
+  padding: 0;
+}
+
+/* --------------------------------------- */
+
+.isvirVideoLibrary h5{
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+.sliderVideoCard-Section p{
+  font-size: 18px;
+}
+
+.sliderVideoCard-Section .btn-primary{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.count-box .icon-box{
+  margin-bottom: 0px;
+}
+.bannerImage{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.award-content {
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.award-content .award-img-container{
+  width: 100% !important;
+  height: 500px !important;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.card-img-top.award-img  {
+  width: 100% !important;
+  height:100% !important;
+}
+
+#basic-navbar-nav{
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+       header.sectionPadding {
+        padding: 0px 10px;
+        border-radius: 0 !important;
+    }
+
+    header.sectionPadding .navbar{
+      border-radius: 0px;
+    }
+
+        #basic-navbar-nav {
+        z-index: 999;
+        background: white;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+
+  #basic-navbar-nav .navbar-nav a{
+    font-size: 12px;
+  }
+
+  .list-unstyled li .btn-primary {
+    padding: 5px 10px;
+    font-size: 12px !important;
+  }
+
 }

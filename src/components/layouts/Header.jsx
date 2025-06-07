@@ -22,7 +22,7 @@ function Header() {
                             <span className='ms-1'>+91 93191 93560</span>
                         </div>
                     </Col>
-                    <Col lg={6} md={6} sm={6} className='d-flex justify-content-end gap-3 topBarSocial justify-content-md-end justify-content-center'>
+                    <Col lg={6} md={6} sm={6} className='d-flex justify-content-end gap-3 topBarSocial justify-content-md-end justify-content-sm-end justify-content-center'>
                         <Link className=''><i className="fa-brands fa-facebook text-black"></i></Link>
                         <Link><i className="fa-brands fa-twitter text-black"></i></Link>
                         <Link><i className="fa-brands fa-instagram text-black"></i></Link>
