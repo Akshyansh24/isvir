@@ -11,16 +11,16 @@ import BreadCrumb from '../../../components/layouts/BreadCrumb';
 const Library = () => {
     const [activeKey, setActiveKey] = useState('masterclasses');
     const [activeYear, setActiveYear] = useState('2022');
-const filterCategories = [
-  { id: "generalIR", name: "General IR" },
-  { id: "gastrointestinalIR", name: "Gastrointestinal IR" },
-  { id: "oncoIR", name: "Onco IR" },
-  { id: "neuroIntervention", name: "Neuro Intervention" },
-  { id: "aorticIR", name: "Aortic IR" },
-  { id: "mskIR", name: "MSK IR" },
-  { id: "peripheralArterial", name: "Peripheral Arterial" },
-  { id: "interventions", name: "Interventions" },
-];
+    const filterCategories = [
+        { id: "generalIR", name: "General IR" },
+        { id: "gastrointestinalIR", name: "Gastrointestinal IR" },
+        { id: "oncoIR", name: "Onco IR" },
+        { id: "neuroIntervention", name: "Neuro Intervention" },
+        { id: "aorticIR", name: "Aortic IR" },
+        { id: "mskIR", name: "MSK IR" },
+        { id: "peripheralArterial", name: "Peripheral Arterial" },
+        { id: "interventions", name: "Interventions" },
+    ];
 
     return (
         <>
@@ -45,25 +45,25 @@ const filterCategories = [
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu className='filterDropdown'>
-                                        <h4>Filters</h4>
-                                       <h6 className='px-3'>Select Category</h6>
-                                    {filterCategories.map((item)=>(
-                                           <Dropdown.Item href="#/action-1">
-                                        <div>
-                                            <Form>
-                                                {['checkbox'].map((type) => (
-                                                    <div key={item.id} className="">
-                                                        <Form.Check // prettier-ignore
-                                                            type={type}
-                                                            id={item.id}
-                                                            label={item.name}
-                                                        />
+                                    <h4>Filters</h4>
+                                    <h6 className='px-3'>Select Category</h6>
+                                    {filterCategories.map((item) => (
+                                        <Dropdown.Item href="#/action-1">
+                                            <div>
+                                                <Form>
+                                                    {['checkbox'].map((type) => (
+                                                        <div key={item.id} className="">
+                                                            <Form.Check // prettier-ignore
+                                                                type={type}
+                                                                id={item.id}
+                                                                label={item.name}
+                                                            />
 
-                                                    </div>
-                                                ))}
-                                            </Form>
-                                        </div>
-                                    </Dropdown.Item>
+                                                        </div>
+                                                    ))}
+                                                </Form>
+                                            </div>
+                                        </Dropdown.Item>
                                     ))}
                                 </Dropdown.Menu>
                             </Dropdown>
