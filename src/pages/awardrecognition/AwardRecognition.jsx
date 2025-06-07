@@ -108,7 +108,7 @@ function AwardRecognition() {
                 <BreadCrumb title={"Award & Recognition"} />
                 <div className='sectionPadding' style={{ backgroundColor: 'rgba(95, 32, 237, 0.05) !important;' }}>
                     <div className="award-main py-4">
-                        {/* Tabs */}
+
                         <div
                             className="custom-tabs-scroll-container d-flex overflow-auto mb-4 p-1 gap-2"
                             style={{
@@ -138,7 +138,7 @@ function AwardRecognition() {
                             ))}
                         </div>
 
-                        {/* Year Buttons */}
+
                         <div className="award-years mb-4 d-flex gap-2">
                             {years.map((year) => (
                                 <button
@@ -229,6 +229,8 @@ function AwardRecognition() {
                                 ))
                             )}
                         </Row>
+
+
                     </div>
                 </div>
             </>

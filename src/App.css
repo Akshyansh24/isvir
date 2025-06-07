@@ -568,7 +568,7 @@ display: inline-block;
 .breadCrumb-header .right img{
   width: 70%;
 }
-.junior-container {
+/* .junior-container {
   max-width: 1200px;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -608,7 +608,89 @@ width: 220px;
 .junior-member-position {
   font-size: 0.95rem;
   color: #5F2DED;
+} */
+
+
+
+.junior-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
+
+.junior-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.junior-member-card {
+  border: 1px solid #5F2DED !important;
+  padding: 1.5rem 1rem;
+  border-radius: 20px !important;
+  transition: transform 0.3s ease;
+  min-height: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.junior-member-card:hover {
+  transform: translateY(-5px);
+}
+
+.junior-member-image-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.junior-member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.junior-member-name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem;
+  color: #000;
+}
+
+.junior-member-position {
+  font-size: 0.95rem;
+  color: #5F2DED;
+  margin: 0;
+}
+
+
+@media (max-width: 576px) {
+  .junior-heading {
+    font-size: 1.5rem;
+  }
+
+  .junior-member-name {
+    font-size: 0.95rem;
+  }
+
+  .junior-member-position {
+    font-size: 0.9rem;
+  }
+
+  .junior-member-image-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .junior-member-card {
+    padding: 1rem;
+  }
+}
+
 /* -----------------  junior memeber 2024 -------------- */
 .junior-2024-container {
   padding-top: 2rem;
@@ -1099,6 +1181,7 @@ position: absolute;
     left: 47%;
 }
 
+
  .patient .headingBox p{
   padding-left: 60px;
   padding-right: 60px;
@@ -1138,7 +1221,7 @@ position: absolute;
 
 .about-info-card:hover {
   transform: translateY(-5px);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important; */
+ 
 }
 
 
@@ -1158,11 +1241,7 @@ position: absolute;
   color: #0e76ec;
 }
 
-/* .red-bar {
-  width: 50px;
-  height: 3px;
-  background-color: red;
-} */
+
 .aboutusbottom{
   font-size:16px;
   font-weight:600;
@@ -1246,15 +1325,212 @@ line-height: 1.2;
   top: 0;
 }
 
+  .blue-bar {
+    background-color: #0E8BDF;
+    border-radius: 0 !important;
+    height: 5px;
+    width: 60px;
+    background-color: #0E8BDF;
+    margin: 0 auto 15px;
+  }
+
+@media (max-width: 768px) {
+  /* .about-main {
+    padding: 2rem 1rem;
+  } */
+
+  .about-card {
+    padding: 1.5rem !important;
+  }
+
+  .about-card .title {
+    font-size: 26px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .about-card .title::after {
+    left: 40%;
+    width: 50px;
+  }
+
+  .about-card .content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    text-align: justify;
+  }
+
+  .about-info-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info-card .content {
+    padding: 10px 15px !important;
+    border-top: 5px solid #0E8BDF;
+    border-bottom: 5px solid #0E8BDF;
+    font-size: 16px;
+  }
+
+  .about-info-card .content .focusIcon {
+    width: 45px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .about-info-card .content .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .about-info-card .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .aboutusnumber {
+    font-size: 20px !important;
+  }
+
+  .aboutusbottom {
+    font-size: 14px !important;
+  }
+
+  .about-main h4,
+  .patient .headingBox h4 {
+    font-size: 28px !important;
+  }
+
+  .blue-bar {
+    height: 4px;
+    width: 40px;
+    background-color: #0E8BDF;
+    margin: 0 auto 15px;
+  }
+
+  .sectionPadding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .row.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .mx-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .text-center .p-3 {
+    padding: 1rem !important;
+  }
 
 
+.about-card .title {
+    position: relative; 
+  }
+  .about-card .title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
+  .patient .headingBox h4 {
+    position: relative; 
+  }
+  .patient .headingBox h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .about-main {
+    padding: 2rem 1rem;
+  }
+
+  .about-info-card {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 0;
+    width:235px;
+    
+  }
+  .about-info-card .content {
+    padding: 15px 15px !important;
+    font-size: 15px;
+    flex-grow: 1;
+    border-top: 4px solid #0E8BDF;
+    border-radius: 0 !important;
+  }
+
+  .about-info-card .content .focusIcon {
+    width: 40px;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .about-info-card .content .title {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  .about-info-card .content p {
+    font-size: 13.5px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+
+  .blue-bar {
+  
+    background-color: #0E8BDF;
+    border-radius: 0 !important;
+    height: 4px;
+    width: 40px;
+    background-color: #0E8BDF;
+    margin: 0 auto 15px;
+  }
+
+  .aboutusnumber {
+    font-size: 18px !important;
+  }
+
+  .aboutusbottom {
+    font-size: 13px !important;
+  }
+
+  .sectionPadding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .mx-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .text-center .p-3 {
+    padding: 1rem !important;
+  }
+ 
+}
 
 
 
 /* Awards & Recognition Section*/
 .award-main {
-  /* background: #f8f9fa; */
+
    background-color: 'rgba(95, 32, 237, 0.05)';
   padding: 2rem 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1340,7 +1616,7 @@ line-height: 1.2;
   gap: 0.7rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
-  /* background-color:  #0e8bdf; */
+ 
 
 }
 
@@ -1465,10 +1741,6 @@ line-height: 1.2;
 }
 
 
-
-
-
-
 .nationalaward {
   margin-top: auto;
 }
@@ -1546,18 +1818,15 @@ line-height: 1.2;
 .custom-tabs-scroll-container {
     overflow-x: auto;
     overflow-y: hidden;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
     position: relative;
     white-space: nowrap;
 }
 
-/* Hide scrollbar by default in WebKit */
 .custom-tabs-scroll-container::-webkit-scrollbar {
     display: none;
 }
-
-/* Show slim scrollbar on hover */
 .custom-tabs-scroll-container:hover {
     scrollbar-width: thin;
     scrollbar-color: #888 transparent;
@@ -1565,7 +1834,7 @@ line-height: 1.2;
 
 .custom-tabs-scroll-container:hover::-webkit-scrollbar {
     display: block;
-    max-height: 1px; /* 👈 Set horizontal scrollbar height */
+    max-height: 1px;
 }
 
 .custom-tabs-scroll-container:hover::-webkit-scrollbar-thumb {
@@ -1579,7 +1848,7 @@ line-height: 1.2;
 
 
 /* isvir new executive */
-.executive-page {
+/* .executive-page {
   background-color: rgba(95, 32, 237, 0.05);
 }
 
@@ -1645,6 +1914,127 @@ font-weight: 600 !important;
 .sectionPadding{
   padding-left: 50px;
   padding-right:50px;
+} */
+
+
+
+.executive-page {
+  background-color: rgba(95, 32, 237, 0.05);
+}
+
+.sectionPadding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.executive-card {
+  border: 2px solid var(--bs-primary);
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 4.457px 4.457px 0px rgba(95, 45, 237, 0.15);
+  background-color: #fff;
+}
+
+.executive-card:hover {
+  transform: translateY(-5px);
+}
+
+.executive-card .executive-img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+}
+
+.executive-card h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+
+.executive-card p {
+  margin: 0;
+}
+
+.executive-card .newexecutivedesignation {
+  font-weight: 400;
+  margin-bottom: 2px !important;
+  color: #03a9fa;
+}
+
+.executive-card .infoText {
+  font-weight: 700;
+}
+
+.executive-card .infoTextIcon {
+  font-size: 18px;
+}
+
+.bi {
+  margin-right: 4px;
+}
+
+.newexecutivenumber {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 991.98px) {
+  .sectionPadding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .executive-card .executive-img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sectionPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .executive-card .executive-img {
+    height: 220px;
+  }
+
+  .executive-card h5 {
+    font-size: 0.95rem;
+  }
+
+  .newexecutivenumber {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sectionPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .executive-card {
+    border-radius: 12px !important;
+  }
+
+  .executive-card .executive-img {
+    height: 200px;
+  }
+
+  .executive-card h5 {
+    font-size: 0.9rem;
+  }
+
+  .newexecutivenumber {
+    font-size: 14px !important;
+  }
+
+  .executive-card .infoTextIcon {
+    font-size: 16px;
+  }
 }
 
 /* myprofile css */
@@ -2175,10 +2565,6 @@ font-size:12px;
 /* Librabry */
 
 
-
-
-
-
 .library-main .dropdown{
 position: absolute !important;
     right: 10px !important;
@@ -2352,178 +2738,179 @@ color: #0E8BDF !important;
 
 
 /* book page css */
-/* .my-page {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  overflow: hidden;
-}
-
-.book-controls {
-  text-align: center;
-  margin-top: 20px;
-}
-
-
-
-
-.book-controls button {
-  background: linear-gradient(to right, #007bff, #0056b3);
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  transition: background 0.3s;
-  cursor: pointer;
-    margin: 0 10px;
-}
-
-.book-controls button:hover {
-  background: linear-gradient(to right, #0056b3, #003c7c);
-} */
-
-
-/* 
-#book {
-  width: 100%;
-  max-width: 700px;
-  height: 450px; 
-  margin: auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.my-page {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 4px;
-}
-
-.my-page img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  border-radius: 4px;
-}
-
-.book-controls {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.book-controls button {
-  background: linear-gradient(to right, #007bff, #0056b3);
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  transition: background 0.3s;
-  cursor: pointer;
-  margin: 0 10px;
-}
-
-.book-controls button:hover {
-  background: linear-gradient(to right, #0056b3, #003c7c);
-} */
-
-
-/* .page.stf__item img{
-  height: 600px !important;
-} */
-
-
 .page.--left {
     border-right: 0;
     box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, .4);
 }
 
-/* Presidential Address Styling */
-.presidential-address {
-  background-color: #f8f9fa;
-  min-height: 100vh;
+.flipbook-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  justify-content: center;
+}
+.flipbook {
+  width: 100% !important;
+  height: auto !important;
+}
+.page {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
 
-/* President Card Styling */
-.president-card {
-  width: 280px;
-  min-height: 650px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-right: 30px;
-  overflow: hidden;
+.page.--left {
+  border-right: 0;
+  box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
+}
+
+.page-content {
+  margin: 1rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-content img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.45rem 1rem;
+  }
+
+  .page.--left {
+    box-shadow: inset -5px 0 20px -5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 576px) {
+  .page-content {
+    margin: 0.5rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+  }
+
+  .flipbook-wrapper {
+    justify-content: flex-start;
+  }
+  
+}
+
+
+/* presedentail address css */
+ 
+
+.presidential-address-section {
+  padding: 40px 0;
+}
+
+.presidential-address-card {
   border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  height: auto;
+  background-color: #ffffff;
 }
 
 .president-img {
   width: 100%;
-  height: 280px;
+  height: 260px;
   object-fit: cover;
   border-bottom: 1px solid #eee;
 }
 
-.president-card h3 {
-  color: #2c3e50;
+.president-name {
   font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.president-details h6 {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 4px;
   font-weight: 600;
-  margin-bottom: 15px;
 }
 
-.president-info {
-  font-size: 0.9rem;
-  line-height: 1.7;
-  color: #555;
-  padding: 0 10px;
-}
-
-.president-info p {
-  margin-bottom: 12px;
-}
-
-.president-info strong {
-  color: #2c3e50;
-}
-
-/* Letter Content Styling */
-.address-content {
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  height: 100%;
-}
-
-.address-content h2 {
-  color: #2c3e50;
-  font-weight: 600;
-  margin-bottom: 25px;
-  font-size: 1.8rem;
-}
-
-.address-content p {
-  margin-bottom: 20px;
-  line-height: 1.8;
-  color: #333;
-  text-align: justify;
+.doctor-detail .text {
   font-size: 1rem;
+  color: black;
+  line-height: 1.7;
+  text-align: justify;
 }
 
-.stf__parent{
-  box-shadow: 0 0 20px 0 rgba(0,0,0,.5) !important;
+@media (max-width: 991px) {
+  .presidential-address-card {
+    max-width: 100%;
+  }
+
+  .president-img {
+    height: 240px;
+  }
+
+  .president-name {
+    font-size: 1.2rem;
+  }
+
+  .president-details h6 {
+    font-size: 0.9rem;
+  }
 }
 
+@media (max-width: 767px) {
+  .presidential-address-section {
+    padding: 20px 15px;
+  }
+
+  .president-img {
+    height: 220px;
+  }
+
+  .president-details h6,
+  .doctor-detail .text p {
+    font-size: 0.9rem;
+  }
+
+  .doctor-detail .text {
+    padding: 0 5px;
+  }
+
+  .president-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .president-img {
+    height: 200px;
+  }
+
+  .president-name {
+    font-size: 1rem;
+  }
+
+  .president-details h6 {
+    font-size: 0.85rem;
+  }
+
+  .doctor-detail .text {
+    font-size: 0.9rem;
+  }
+}
 
 
 /* isvir international fellowship css */
@@ -2542,7 +2929,7 @@ color: #0E8BDF !important;
   border: none;
   background-color: #f8f9fa;
   margin-bottom: 4px; 
-  min-height: 128px !important;
+  /* min-height: 128px !important; */
 }
 
 .fellowship-card:hover {
@@ -2621,14 +3008,12 @@ font-size: 16px;
 }
 
 /* international grant css*/
-
 .grant-title {
   font-size: 20px;
   font-weight: 600;
   color: black;
   margin-bottom: 5px;
 }
-
 .grant-card {
   position: relative;
   border-radius: 10px;
@@ -2636,14 +3021,14 @@ font-size: 16px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
   background-color: #f8f9fa;
-
+  margin-bottom: 4px;
+  height: 100%;
 }
 
 .grant-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
 
 .grant-card::after {
   content: '';
@@ -2653,39 +3038,27 @@ font-size: 16px;
   width: 0;
   height: 4px;
   background-color: #dc3545;
-  transition: width 0.4s ease;
+  border-radius: 2px;
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .grant-card:hover::after {
-  width: 100%; 
+  width: 100%;
 }
-
 .grant-card .grant-name {
   font-size: 17px;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #2c3e50;
-}
-
-.grant-card .grant-institution {
-  font-size: 14px;
   color: black;
 }
 
+.grant-card .grant-institution,
 .grant-card .grant-branch {
   font-size: 14px;
   color: black;
-  font-weight: 700;
-}
-
-.fellowship-content {
-  margin-top: 2rem;
-  line-height: 1.6;
-  font-size: 1.1rem;
-  color: #495057;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grant-main-content .grant-sub-content {
@@ -2861,4 +3234,139 @@ header.sectionPadding  .navbar{
     padding: 5px 10px;
     font-size: 12px !important;
   }
+}
+
+
+ @media screen and (min-width:320px)and (max-width:768px){
+  .grant-main-content .grant-sub-content{
+    padding:0.2rem !important;
+  }
+ }
+  
+/* join isvir css */
+.membership-card-joinisvir {
+  transition: all 0.3s ease;
+}
+
+.membership-card-joinisvir:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+}
+
+.text-primary {
+  color: #0d6efd !important;
+}
+
+.list-unstyled li {
+  margin-bottom: 0.5rem;
+  color: #6c757d; 
+}
+
+
+.membership-joinisvir-subcards {
+  margin-bottom: 1rem;
+}
+
+.membership-joinisvir-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(241, 147, 147, 0.1);
+
+  margin-bottom: 1rem;
+}
+
+.membership-joinisvir-icon {
+  font-size: 1.5rem;
+  color: #EA1C22 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-isvir-subcontent .joinisvir-content-title{
+font-size: 18px;
+color:#EA1C22 !important
+
+
+}
+
+ .joinisvir-basic-heading{
+  font-size:17px !important;
+  color:#17a2b8 !important;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+  .sectionPadding {
+  padding-left: 20px;
+  padding-right: 20px;
+}   
+
+.irtrainingtable th{
+  font-size: 13px;
+}
+
+.irtrainingtable  td{
+  font-size: 12px;
+}
+
+.irtrainingtable {
+  text-wrap: nowrap;
+}
+}
+
+.membership-card-joinisvir  .card-body{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.membership-card-joinisvir.active{
+  background-color: rgb(240, 65, 65);
+  color: white !important;
+  overflow: hidden;
+
+}
+
+.membership-card-joinisvir.active .membership-joinisvir-icon i{
+  color: red;
+}
+
+
+.membership-card-joinisvir.active .membership-joinisvir-icon-container{
+  background-color: white;
+}
+
+.membership-card-joinisvir.active .joinisvir-content-title{
+  color: white !important;
+}
+
+.membership-card-joinisvir.active .list-unstyled li{
+  color: white !important;
+}
+
+.membership-card-joinisvir.active .list-unstyled li i{
+  color: white !important;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+  .sectionPadding {
+  padding-left: 20px;
+  padding-right: 20px;
+}   
+
+.centerexcellencetable  th{
+  font-size: 13px;
+}
+
+.centerexcellencetable   td{
+  font-size: 12px;
+}
+
+.centerexcellencetable  {
+  text-wrap: nowrap;
+}
 }

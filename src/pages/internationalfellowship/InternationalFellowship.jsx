@@ -20,13 +20,13 @@ const InternationalFellowship = () => {
         <>
             <BreadCrumb title={"International Fellowship"} />
 
-            <section className="international-fellowship sectionPadding">
-                <h6 className="fellowship-title mb-2 mt-2 fw-bold">Selected Candidate : ISVIR SIR International Fellowship 2025</h6>
+            <section className="international-fellowship sectionPadding my-4">
+                <h6 className="fellowship-title mb-4 mt-2 fw-bold">Selected Candidate : ISVIR SIR International Fellowship 2025</h6>
 
                 <Row className="g-4 mb-0">
                     {selectedCandidates.map((candidate) => (
                         <Col key={candidate.id} xs={12} sm={6} md={4} lg={3}>
-                            <Card className="fellowship-card text-center h-100 shadow-sm border-0">
+                            <Card className="fellowship-card text-center shadow-sm border-1">
                                 <Card.Body className="p-4">
                                     <Card.Title className="fellowship-name h6 fw-bold text-danger mb-2">
                                         {candidate.name}
@@ -44,7 +44,7 @@ const InternationalFellowship = () => {
                 <hr className="my-4 opacity-50" style={{ border: '1px solid grey' }} />
 
                 <Card className="border-0 mb-4">
-                    <Card.Body className="p-4">
+                    <Card.Body className="p-2">
                         <p>Dear ISVIR members,</p>
                         <p>We are pleased to inform that exchange program for the training of young Interventional radiologists in combined collaboration of ISVIR and various International IR societies are started.</p>
 

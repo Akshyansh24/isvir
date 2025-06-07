@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Link, Route, RouterProvider } from 'react-router-dom'
 import HomeLayout from './pages/HomeLayout'
-import { Home, JuniorWing, Events, ContactUs, About, Career, AwardRecognition, NewExecutive, Login, Patient, Invoices, ConferenceandCertificates, Library, AssociateMembership, MyProfile, PresidentailAddress } from './pages'
+import { Home, JuniorWing, Events, ContactUs, About, Career, AwardRecognition, NewExecutive, Login, Patient, Invoices, ConferenceandCertificates, Library, AssociateMembership, MyProfile, PresidentailAddress, JoinIsvir } from './pages'
 import ConstitutionIsvir from './pages/constitutionisvir/ConstitutionIsvir'
 import CenterExcellence from './pages/centerofexcellence/CenterExcellence';
 import InternationalFellowship from './pages/internationalfellowship/InternationalFellowship'
@@ -24,6 +24,7 @@ function App() {
           <Route path='awardrecognition' element={<AwardRecognition />} />
           <Route path='newexecutive' element={<NewExecutive />} />
           <Route path='login' element={<Login />} />
+          <Route path='join' element={<JoinIsvir />} />
           <Route path='for-patient' element={<Patient />} />
           <Route path='constitutionisvir' element={<ConstitutionIsvir />} />
           <Route path='president' element={<PresidentailAddress />} />

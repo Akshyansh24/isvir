@@ -14,22 +14,22 @@ const InternationalGrant = () => {
         <>
             <BreadCrumb title={"International Travel Grant"} />
 
-            <section className="international-grant sectionPadding">
-                <h6 className="grant-title mb-4 mt-2 fw-bold">Grant Recipients for the year 2023 (July-December)</h6>
+            <section className="international-grant sectionPadding py-4">
+                <h6 className="grant-title mb-4 mt-2">Grant Recipients for the year 2023 (July-December)</h6>
 
-                <Row className="mb-0">
+                <Row className="g-4 mb-0">
                     {selectedCandidates.map((candidate, index) => (
-                        <Col key={index} xs={12} sm={10} md={6} lg={5} xl={4}>
-                            <Card className="grant-card text-center h-100 shadow-sm border-0 mb-3" style={{ minHeight: '160px' }}>
-                                <Card.Body className="p-3">
-                                    <Card.Title className="grant-name h6 fw-bold text-danger mb-2">
+                        <Col key={index} xs={12} sm={6} md={4} lg={3}>
+                            <Card className="grant-card text-center">
+                                <Card.Body className="p-4">
+                                    <Card.Title className="grant-name text-danger">
                                         {candidate.name}
                                     </Card.Title>
-                                    <Card.Text className="grant-institution text-dark fw-bold">
+                                    <Card.Text className="grant-institution">
                                         <FontAwesomeIcon icon={faUniversity} className="me-2" />
                                         {candidate.institution}
                                     </Card.Text>
-                                    <Card.Text className="grant-branch text-dark fw-bold">
+                                    <Card.Text className="grant-branch">
                                         <FontAwesomeIcon icon={faCalendar} className="me-2" />
                                         {candidate.branch}
                                     </Card.Text>
@@ -39,10 +39,11 @@ const InternationalGrant = () => {
                     ))}
                 </Row>
 
+
                 <hr className="my-4 opacity-50" style={{ border: '1px solid grey' }} />
 
                 <Card className="grant-main-content border-0 mb-4">
-                    <Card.Body className="grant-sub-content p-4">
+                    <Card.Body className="grant-sub-content p-2">
                         <p>Dear ISVIR members,</p>
                         <p>The ISVIR International grant is to provide financial assistance for presenting an oral paper or chairing a session or delivering a lecture address in an international conference held and the following:</p>
                         <p>50% of shortest Economy class air-fare, upto max Rs 50,000/- to four persons each for attending CIRSE, SIR, APSCVIR, KSIR, JSIR and PAIRS whose oral paper are accepted.</p>

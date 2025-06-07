@@ -13,19 +13,19 @@ function About() {
             id: "1",
             title: "Our Mission",
             icon: rocketIcon,
-            content:"ISVIR is a non-profit making society of Interventional Radiologists. It has been floated to provide a for educational and training for its members. It also provides opportunities for exchange of ideas and information regarding clinical practice, patient care and future of endovascular and interventional radiology."
+            content: "ISVIR is a non-profit making society of Interventional Radiologists. It has been floated to provide a for educational and training for its members. It also provides opportunities for exchange of ideas and information regarding clinical practice, patient care and future of endovascular and interventional radiology."
         },
         {
             id: "2",
             title: "Our Vission",
             icon: bulbIcon,
-                    content:"ISVIR was formed in Trivandrum on November 9, 1997.Our vision is to take the complete care of our  and provide the best services in the field of Interventional Radiology with the use of best treatment and meeting the satisfaction needs of the patients. Also to develop training opportunities for the residents and budding interventional radiologists.."
+            content: "ISVIR was formed in Trivandrum on November 9, 1997.Our vision is to take the complete care of our  and provide the best services in the field of Interventional Radiology with the use of best treatment and meeting the satisfaction needs of the patients. Also to develop training opportunities for the residents and budding interventional radiologists.."
         },
         {
             id: "3",
             title: "Our Values",
             icon: threeSixtyIcon,
-                    content:"We strive for excellence in patient care, research, education, and the advancement of our field. Through continuous learning, collaboration, and the application of cutting-edge technologies, we aim to provide the highest quality of care to those who entrust their well-being to us."
+            content: "We strive for excellence in patient care, research, education, and the advancement of our field. Through continuous learning, collaboration, and the application of cutting-edge technologies, we aim to provide the highest quality of care to those who entrust their well-being to us."
         }
     ]
     return (
@@ -92,7 +92,7 @@ function About() {
                     {aboutFocus.map((focusCard) => (
                         <Col md={4} sm={6} key={focusCard.id}>
                             <Card className="h-100 about-info-card shadow-sm p-0 mx-3">
-                                
+
                                 <div className="content">
                                     <div className="text-center">
                                         <img className='focusIcon' src={focusCard.icon} alt="" srcset="" />
@@ -108,33 +108,33 @@ function About() {
 
                 </Row>
 
-             
+
 
             </section>
-               <Row className="bg-white py-1 mx-0 my-4 rounded">
-                    <Col md={4} className="text-center">
-                        <div className="p-3">
-                            <FaBullseye size={40} className="text-danger mb-3" />
+            <Row className="bg-white py-1 mx-0 my-4 rounded">
+                <Col md={4} className="text-center">
+                    <div className="p-3">
+                        <FaBullseye size={40} className="text-danger mb-3" />
 
-                            <p className="aboutusbottom mb-0">Years of Experience</p>
-                            <h2 className="aboutusnumber text-black mb-1">25+</h2>
-                        </div>
-                    </Col>
-                    <Col md={4} className="text-center">
-                        <div className="p-3">
-                            <FaBullseye size={40} className="text-danger mb-3" />
-                            <p className="aboutusbottom mb-0">Members</p>
-                            <h2 className="aboutusnumber text-black mb-1">1300+</h2>
-                        </div>
-                    </Col>
-                    <Col md={4} className="text-center">
-                        <div className="p-3">
-                            <FaBullseye size={40} className="text-danger mb-3" />
-                            <p className="aboutusbottom mb-0">National Meetings</p>
-                            <h2 className="aboutusnumber text-black mb-1">120+</h2>
-                        </div>
-                    </Col>
-                </Row>
+                        <p className="aboutusbottom mb-0">Years of Experience</p>
+                        <h2 className="aboutusnumber text-black mb-1">25+</h2>
+                    </div>
+                </Col>
+                <Col md={4} className="text-center">
+                    <div className="p-3">
+                        <FaBullseye size={40} className="text-danger mb-3" />
+                        <p className="aboutusbottom mb-0">Members</p>
+                        <h2 className="aboutusnumber text-black mb-1">1300+</h2>
+                    </div>
+                </Col>
+                <Col md={4} className="text-center">
+                    <div className="p-3">
+                        <FaBullseye size={40} className="text-danger mb-3" />
+                        <p className="aboutusbottom mb-0">National Meetings</p>
+                        <h2 className="aboutusnumber text-black mb-1">120+</h2>
+                    </div>
+                </Col>
+            </Row>
 
         </>
     )

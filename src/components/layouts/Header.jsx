@@ -58,7 +58,7 @@ function Header() {
                                         </Nav.Link>
                                         <ul className="dropdown-menu border-0 shadow" aria-labelledby="aboutDropdown">
                                             <li>
-                                                <NavLink to="/aboutus/vision" className="dropdown-item">
+                                                <NavLink to="/aboutus" className="dropdown-item">
                                                     ISVIR History
                                                 </NavLink>
                                             </li>
@@ -137,10 +137,7 @@ function Header() {
                                         <button className="btn btn-primary w-100">Join ISVIR</button>
                                     </li>
                                 </ul>
-                                {/* <div className='headerProfile' style={{width:"250px"}}>
-                                    <h5>DR. P SANTHOSH</h5>
-                                    <img src={avtar} alt="" srcset="" />
-                                </div> */}
+
                             </Navbar.Collapse>
 
                         </Container>
