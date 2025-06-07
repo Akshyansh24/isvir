@@ -13,7 +13,24 @@
   header .contantDetail {
     font-weight: 500;
   }
+.headerProfile{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+    .headerProfile h5{
+      font-size: 15px;
+      margin-right: 10px;
+      font-weight: 700;
+      margin-bottom: 0px;
+    }
+  .headerProfile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 99%;
 
+  }
   .headerProfile{
     display: flex;
     align-items: center;
@@ -2755,7 +2772,7 @@ color:#EA1C22 !important
   }
 
   .event-image {
-    height: 200px;
+    height: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -2876,6 +2893,23 @@ color:#EA1C22 !important
     left: 50%;
     transform: translateX(-50%);
   }
+.login-form.contact-form p{
+font-size:14px;
+text-align: justify;
+}
+.login-form.contact-form .list-group li {
+  font-size: 14px;
+}
+
+.login-form.contact-form  h5{
+  font-size: 19px;
+  text-align: center;
+}
+
+
+.join-isvir-subcontent .joinisvir-content-title{
+  font-size: 15px;
+}
 
   
 }
@@ -3050,7 +3084,7 @@ color:#EA1C22 !important
   }
 
   .executive-card .executive-img {
-    height: 200px;
+    height: 100%;
   }
 
   .executive-card h5 {
@@ -3101,7 +3135,9 @@ color:#EA1C22 !important
   .flipbook-wrapper {
     justify-content: flex-start;
   }
-  
+  .loginCard .bottomBox p, .loginCard .bottomBox a {
+    font-size:15px;
+}
 }
 @media (max-width: 991px) {
   .presidential-address-card {
@@ -3119,6 +3155,9 @@ color:#EA1C22 !important
   .president-details h6 {
     font-size: 0.9rem;
   }
+   .centerexcellencetable td {
+    font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   .presidential-address-section {
@@ -3126,7 +3165,7 @@ color:#EA1C22 !important
   }
 
   .president-img {
-    height: 220px;
+    height: 100%;
   }
 
   .president-details h6,
@@ -3148,7 +3187,7 @@ color:#EA1C22 !important
   }
 
   .president-name {
-    font-size: 1rem;
+    font-size: 16px !important;
   }
 
   .president-details h6 {
@@ -3171,6 +3210,21 @@ color:#EA1C22 !important
 }s
   header.sectionPadding  .navbar{
     border-radius: 0;
+}
+.excellence-main h3{
+  font-size:19px;
+}
+.excellence-main .excellence-content {
+   font-size:14px;
+}
+.excellence-middle h5{
+   font-size:19px;
+}
+.excellence-middle .list-group.list-group-flush li{
+   font-size:14px;
+}
+.center-excellence-bg .form-label{
+ font-size:14px;
 }
 
 #basic-navbar-nav{
@@ -3353,4 +3407,14 @@ color:#EA1C22 !important
 .centerexcellencetable  {
   text-wrap: nowrap;
 }
+ .loginCard .innerCard .formBox{
+  width:100%;
+ }
 }
+ @media screen and (min-width:768px) and (max-width:992px){
+.about-card .content {
+  font-weight: 400;
+  font-size: 15px;
+}
+ }
+

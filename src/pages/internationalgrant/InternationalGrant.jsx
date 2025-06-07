@@ -19,7 +19,7 @@ const InternationalGrant = () => {
 
                 <Row className="g-4 mb-0">
                     {selectedCandidates.map((candidate, index) => (
-                        <Col key={index} xs={12} sm={6} md={4} lg={3}>
+                        <Col key={index} xs={12} sm={6} md={6} lg={4}>
                             <Card className="grant-card text-center">
                                 <Card.Body className="p-4">
                                     <Card.Title className="grant-name text-danger">

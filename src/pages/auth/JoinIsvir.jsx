@@ -66,7 +66,7 @@ const JoinIsvir = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="login-form contact-form bg-white p-4">
+                            <div className="login-form contact-form bg-white p-4 pb-0 pb-lg-4">
                                 <h3 className="text-center fw-bold mb-4">ISVIR Membership</h3>
 
                                 <h5 className="fw-bold">Membership Benefits</h5>
@@ -112,7 +112,7 @@ const JoinIsvir = () => {
                                 <p className="joinisvir-basic-heading fw-bold">Select Membership  (<span className="text-danger">Select anyone *</span>)</p>
 
 
-                                <Row className="mb-4 g-4">
+                                <Row className="mb-0 mb-lg-4 g-4">
                                     {membershipOptions.map((option) => (
                                         <Col key={option.id} md={6} lg={4} className="mb-3">
                                             <Card

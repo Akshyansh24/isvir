@@ -86,7 +86,7 @@ function Header() {
 
                                     <div className="nav-item dropdown px-lg-3 px-1 ">
                                         <Nav.Link
-                                            as={NavLink} 
+                                            as={NavLink}
                                             className="text-black dropdown-toggle"
                                             id="aboutDropdown"
                                             role="button"
@@ -134,9 +134,13 @@ function Header() {
                                         <Link className="btn btn-primary w-100" to={'/login'}>Login</Link>
                                     </li>
                                     <li className="nav-item w-100 mt-lg-0 mt-2">
-                                        <button className="btn btn-primary w-100">Join ISVIR</button>
+                                        <Link className="btn btn-primary w-100" to={'/join'}>Join ISVIR</Link>
                                     </li>
                                 </ul>
+                                {/* <div className='headerProfile' style={{width:"250px"}}>
+                                    <h5>DR. P SANTHOSH</h5>
+                                    <img src={avtar} alt="" srcset="" />
+                                </div> */}
 
                             </Navbar.Collapse>
 

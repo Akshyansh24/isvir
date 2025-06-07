@@ -27,7 +27,7 @@ const ConstitutionIsvir = () => {
     }, []);
 
     return (
-        <div className="sectionPadding my-4">
+        <div className="sectionPadding my-2 my-lg-4">
             <div className="d-flex justify-content-center flipbook-wrapper">
                 <HTMLFlipBook
                     ref={flipRef}
