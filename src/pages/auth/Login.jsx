@@ -15,7 +15,7 @@ function Login() {
     };
     return (
         <div className='sectionPadding'>
-            <div className="card d-flex align-items-center flex-row flex-md-column loginCard">
+            <div className="card d-flex align-items-center flex-column flex-lg-row flex-md-column loginCard">
                 <div className="left py-md-5">
                     <div className='innerCard'>
                         <img src={logo} alt="" srcset="" />
