@@ -20,7 +20,7 @@ function MasterClass() {
 
                         <Col md={3} >
                             <h5 className="sidebar-heading">Previous Masterclass Series</h5>
-                            <Card className="sidebar-card p-3 border-0 mb-4" style={{ backgroundColor: 'transparent' }}>
+                            <Card className="sidebar-card p-3 border-0 mb-2" style={{ backgroundColor: 'transparent' }}>
                                 <div className="search-container mb-3">
                                     <h6 className="search-heading">Search here</h6>
                                     <InputGroup>
@@ -36,7 +36,7 @@ function MasterClass() {
                                     </InputGroup>
                                 </div>
                             </Card>
-                            <Card className="sidebar-card p-3 border-0" style={{ backgroundColor: 'transparent' }}>
+                            <Card className="sidebar-card p-2 border-0" style={{ backgroundColor: 'transparent' }}>
                                 <div className="categories-container mb-0">
                                     <h6 className="categories-heading">Categories</h6>
                                     <ul className="categories-list">
@@ -62,7 +62,7 @@ function MasterClass() {
                             <Row className="image-card-row">
                                 {eventImages.map((imgSrc, idx) => (
                                     <Col md={4} key={idx} className="">
-                                        <Card className="event-card border-0">
+                                        <Card className="event-card border-0" style={{ marginTop: '20px;' }}>
                                             <Card.Img variant="top" src={imgSrc} className="event-image" />
                                         </Card>
                                     </Col>
